@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Cetățenie România</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue: #002B7F;
+      --yellow: #FCD116;
+      --red: #CE1126;
+      --bg: #f0f2f5;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --text-muted: #6b7280;
+      --border: #e5e7eb;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      --radius: 16px;
+      --transition: 0.25s ease;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Header */
+    .header {
+      width: 100%;
+      background: var(--blue);
+      color: #fff;
+      padding: 24px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--blue) 33.33%, var(--yellow) 33.33%, var(--yellow) 66.66%, var(--red) 66.66%);
+    }
+    .header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .header p {
+      font-size: 0.875rem;
+      opacity: 0.8;
+      margin-top: 4px;
+    }
+
+    /* Main container */
+    .container {
+      width: 100%;
+      max-width: 640px;
+      padding: 24px 16px 40px;
+      flex: 1;
+    }
+
+    /* Progress bar */
+    .progress-section {
+      margin-bottom: 20px;
+    }
+    .progress-stats {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--border);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--blue), #0047d4);
+      border-radius: 99px;
+      transition: width 0.4s ease;
+      width: 0%;
+    }
+
+    /* Category pills */
+    .category-bar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .cat-pill {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 99px;
+      border: 1.5px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text-muted);
+      transition: all var(--transition);
+      cursor: default;
+    }
+    .cat-pill.active {
+      border-color: var(--blue);
+      background: var(--blue);
+      color: #fff;
+    }
+    .cat-pill .pill-count {
+      margin-left: 4px;
+      opacity: 0.7;
+    }
+
+    /* Card */
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: all var(--transition);
+    }
+    .card-body {
+      padding: 28px 24px;
+    }
+
+    /* Welcome state */
+    .welcome {
+      text-align: center;
+      padding: 48px 24px;
+    }
+    .welcome-icon {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+    .welcome h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .welcome p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    /* Question display */
+    .question-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--blue);
+      margin-bottom: 12px;
+    }
+    .question-text {
+      font-size: 1.15rem;
+      font-weight: 600;
+      line-height: 1.55;
+      color: var(--text);
+    }
+
+    /* Answer display */
+    .answer-section {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px dashed var(--border);
+      display: none;
+    }
+    .answer-section.visible { display: block; }
+    .answer-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #059669;
+      margin-bottom: 10px;
+    }
+    .answer-text {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: #374151;
+    }
+
+    /* Buttons */
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition);
+      flex: 1;
+    }
+    .btn:active { transform: scale(0.97); }
+    .btn-primary {
+      background: var(--blue);
+      color: #fff;
+    }
+    .btn-primary:hover { background: #001f5c; }
+    .btn-secondary {
+      background: #f3f4f6;
+      color: var(--text);
+      border: 1.5px solid var(--border);
+    }
+    .btn-secondary:hover { background: #e5e7eb; }
+    .btn-reveal {
+      background: #ecfdf5;
+      color: #059669;
+      border: 1.5px solid #a7f3d0;
+    }
+    .btn-reveal:hover { background: #d1fae5; }
+    .btn-reset {
+      background: transparent;
+      color: var(--text-muted);
+      border: 1.5px solid var(--border);
+    }
+    .btn-reset:hover { background: #f9fafb; color: var(--red); border-color: var(--red); }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .bottom-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    /* Completion state */
+    .completion {
+      text-align: center;
+      padding: 48px 24px;
+    }
+    .completion-icon { font-size: 3rem; margin-bottom: 16px; }
+    .completion h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; }
+    .completion p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; margin-bottom: 24px; }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 48px 24px;
+      color: var(--text-muted);
+    }
+    .spinner {
+      width: 32px; height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--blue);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in { animation: fadeIn 0.3s ease forwards; }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .header h1 { font-size: 1.25rem; }
+      .card-body { padding: 20px 16px; }
+      .question-text { font-size: 1.05rem; }
+      .actions { flex-direction: column; }
+      .bottom-actions { flex-direction: column; }
+      .category-bar { gap: 6px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Quiz Cetățenie România</h1>
+  <p>Pregătire pentru examenul de cetățenie</p>
+</div>
+
+<div class="container">
+  <!-- Progress -->
+  <div class="progress-section">
+    <div class="progress-stats">
+      <span id="progress-text">0 / 0 întrebări</span>
+      <span id="progress-pct">0%</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+  </div>
+
+  <!-- Category pills -->
+  <div class="category-bar" id="category-bar"></div>
+
+  <!-- Main card -->
+  <div class="card" id="main-card">
+    <div class="card-body" id="card-body">
+      <div class="loading" id="loading-state">
+        <div class="spinner"></div>
+        <p>Se încarcă întrebările...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom actions (shown after quiz starts) -->
+  <div class="bottom-actions" id="bottom-actions" style="display:none;">
+    <button class="btn btn-reset" onclick="resetQuiz()">Resetează</button>
+  </div>
+</div>
+
+<script>
+// Use PapaParse for CSV parsing
+function loadScript(src, cb) {
+    let s = document.createElement('script');
+    s.src = src;
+    s.onload = cb;
+    s.onerror = function() {
+        document.getElementById('card-body').innerHTML =
+            '<div class="welcome"><div class="welcome-icon">⚠️</div><h2>Eroare la încărcare</h2>' +
+            '<p>Nu s-a putut încărca biblioteca PapaParse.</p></div>';
+    };
+    document.head.appendChild(s);
+}
+loadScript('https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js', function() { initQuiz(); });
+
+let questionsByCategory = {}, usedQuestions = {}, currentQuestion = null, currentCat = null;
+let allQuestionsLoaded = false;
+let categories = ["Constitution", "History", "Culture", "Geography"];
+let categoryLabels = {
+    "Constitution": "Constituție",
+    "History": "Istorie",
+    "Culture": "Cultură",
+    "Geography": "Geografie"
+};
+let totalQuestions = 0;
+
+function initQuiz() {
+    fetch('questions.csv')
+      .then(res => {
+          if (!res.ok) throw new Error('CSV not found');
+          return res.text();
+      })
+      .then(csvText => {
+          const data = Papa.parse(csvText, { header: true, skipEmptyLines: true }).data;
+          questionsByCategory = {};
+          categories.forEach(cat => questionsByCategory[cat] = []);
+          data.forEach((row, i) => {
+              let cat = row.Category ? row.Category.trim() : '';
+              if (categories.includes(cat) && row.Question && row.Question.trim() && row.Answer && row.Answer.trim())
+                  questionsByCategory[cat].push({id: i, question: row.Question.trim(), answer: row.Answer.trim()});
+          });
+          totalQuestions = categories.reduce((sum, cat) => sum + questionsByCategory[cat].length, 0);
+          allQuestionsLoaded = true;
+          resetQuiz();
+          renderCategoryPills();
+          showWelcome();
+      })
+      .catch(err => {
+          document.getElementById('card-body').innerHTML =
+              '<div class="welcome"><div class="welcome-icon">⚠️</div><h2>Eroare</h2>' +
+              '<p>Nu s-au putut încărca întrebările. Verificați fișierul questions.csv.</p></div>';
+      });
+}
+
+function showWelcome() {
+    document.getElementById('card-body').innerHTML =
+        '<div class="welcome fade-in">' +
+        '<div class="welcome-icon">🇷🇴</div>' +
+        '<h2>Bine ați venit!</h2>' +
+        '<p>Testați-vă cunoștințele pentru examenul de cetățenie română. ' +
+        totalQuestions + ' întrebări din 4 categorii.</p>' +
+        '<button class="btn btn-primary" onclick="nextQuestion()" style="width:100%">Începe Quiz-ul</button>' +
+        '</div>';
+    document.getElementById('bottom-actions').style.display = 'none';
+}
+
+function renderCategoryPills() {
+    let bar = document.getElementById('category-bar');
+    bar.innerHTML = categories.map(cat => {
+        let remaining = unusedQuestions(cat).length;
+        let total = questionsByCategory[cat].length;
+        return '<div class="cat-pill" id="pill-' + cat + '">' +
+               categoryLabels[cat] +
+               '<span class="pill-count">' + remaining + '/' + total + '</span></div>';
+    }).join('');
+}
+
+function updateProgress() {
+    let answered = Object.keys(usedQuestions).length;
+    let pct = totalQuestions > 0 ? Math.round((answered / totalQuestions) * 100) : 0;
+    document.getElementById('progress-text').textContent = answered + ' / ' + totalQuestions + ' întrebări';
+    document.getElementById('progress-pct').textContent = pct + '%';
+    document.getElementById('progress-fill').style.width = pct + '%';
+    renderCategoryPills();
+    // Update active pill
+    document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+    if (currentCat) {
+        let pill = document.getElementById('pill-' + currentCat);
+        if (pill) pill.classList.add('active');
+    }
+}
+
+function nextQuestion() {
+    if (!allQuestionsLoaded) return;
+
+    let remaining = categories.filter(cat => unusedQuestions(cat).length > 0);
+    if (remaining.length === 0) {
+        showCompletion();
+        return;
+    }
+
+    let cat = remaining[Math.floor(Math.random() * remaining.length)];
+    let unused = unusedQuestions(cat);
+    let q = unused[Math.floor(Math.random() * unused.length)];
+    usedQuestions[q.id] = true;
+
+    currentQuestion = q;
+    currentCat = cat;
+
+    document.getElementById('card-body').innerHTML =
+        '<div class="fade-in">' +
+        '<div class="question-label">' + categoryLabels[cat] + '</div>' +
+        '<div class="question-text">' + escapeHtml(q.question) + '</div>' +
+        '<div class="answer-section" id="answer-section">' +
+        '<div class="answer-label">Răspuns</div>' +
+        '<div class="answer-text" id="answer-text"></div>' +
+        '</div>' +
+        '<div class="actions">' +
+        '<button class="btn btn-reveal" id="btn-reveal" onclick="showAnswer()">Arată Răspunsul</button>' +
+        '<button class="btn btn-primary" onclick="nextQuestion()">Următoarea</button>' +
+        '</div>' +
+        '</div>';
+
+    document.getElementById('bottom-actions').style.display = 'flex';
+    updateProgress();
+}
+
+function unusedQuestions(cat) {
+    return questionsByCategory[cat].filter(q => !usedQuestions[q.id]);
+}
+
+function showAnswer() {
+    if (!currentQuestion) return;
+    let section = document.getElementById('answer-section');
+    let text = document.getElementById('answer-text');
+    let btn = document.getElementById('btn-reveal');
+    if (section && text) {
+        text.textContent = currentQuestion.answer;
+        section.classList.add('visible');
+        section.classList.add('fade-in');
+    }
+    if (btn) btn.style.display = 'none';
+}
+
+function showCompletion() {
+    currentQuestion = null;
+    currentCat = null;
+    document.getElementById('card-body').innerHTML =
+        '<div class="completion fade-in">' +
+        '<div class="completion-icon">🎉</div>' +
+        '<h2>Felicitări!</h2>' +
+        '<p>Ați parcurs toate cele ' + totalQuestions + ' întrebări.</p>' +
+        '<button class="btn btn-primary" onclick="resetQuiz(); showWelcome();" style="width:100%">Începe din nou</button>' +
+        '</div>';
+    updateProgress();
+}
+
+function resetQuiz() {
+    usedQuestions = {};
+    currentQuestion = null;
+    currentCat = null;
+    updateProgress();
+}
+
+function escapeHtml(text) {
+    let div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+</script>
+</body>
+</html>

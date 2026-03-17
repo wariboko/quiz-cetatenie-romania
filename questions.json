@@ -1,0 +1,2732 @@
+[
+    {
+        "category": "Constitution",
+        "question": "Care este forma de guvernământ a României?",
+        "answer": "Forma de guvernământ a statului român este republica. Cetățenii români dețin și exercită puterea suverană prin reprezentanții aleși, respectiv parlamentari și președinte. România este republică semi-prezidențială. Atât Președintele, cât și Prim-ministrul participă activ în administrația statului.",
+        "id": 1
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt trăsăturile statului român?",
+        "answer": "Principalele trăsături ale statului român sunt: „stat național, suveran și independent, unitar și indivizibil”, la care se adaugă următoarele trăsături: „stat de drept, democratic și social”.",
+        "id": 2
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce înseamnă noțiunea de pluralism politic?",
+        "answer": "Noțiunea de pluralism politic reprezintă un principiu democratic, ce oferă cetățenilor garantarea reprezentării intereselor prin recunoașterea asocierii între aceștia, în vederea promovării unei viziuni ideologice și economice comune.",
+        "id": 3
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce înseamnă că România este un stat indivizibil?",
+        "answer": "Noțiunea de stat indivizibil se referă la toate elementele constitutive ale statului, respectiv, teritoriu, populație, suveranitate. Niciunul dintre acestea nu poate fi divizat sau pus sub autoritatea altor state.",
+        "id": 4
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt cele trei puteri în stat?",
+        "answer": "Ca model de separare a puterilor în stat, puterea în România este împărțită între puterea legislativă, puterea executivă și puterea judecătorească.",
+        "id": 5
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este puterea legislativă?",
+        "answer": "Puterea legislativă este reprezentată de Parlament, unica autoritate legiuitoare, care elaborează și adoptă legi destinate reglementării relațiilor sociale.",
+        "id": 6
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este puterea executivă?",
+        "answer": "Puterea executivă este împărțită între Guvern și Șeful Statului (Președinte). Guvernul implementează legile adoptate de Parlament și se ocupă cu administrarea birocrației de stat.",
+        "id": 7
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este puterea judecătorească?",
+        "answer": "Puterea judecătorească este reprezentată de organele judiciare și constă în activitatea de soluționare a litigiilor apărute în societate prin pronunțarea de hotărâri judecătorești.",
+        "id": 8
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre Parlamentul României?",
+        "answer": "Parlamentul României este unica autoritate legiuitoare și organul reprezentativ suprem, fiind ales prin vot universal, egal, direct, secret și liber exprimat, potrivit legii electorale. Parlamentul este bicameral, fiind format din Senat și Camera Deputaților. Ambele camere au mandate de câte 4 ani.",
+        "id": 9
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce tipuri de legi emite Parlamentul României?",
+        "answer": "Parlamentul adoptă legi constituționale, legi organice și legi ordinare. - Legile constituționale se referă la Constituție și modificarea acesteia. - Legile organice se referă la anumite domenii de importanță majoră cum ar fi sistemul electoral (lista completă se poate regăsi in Articolul 73 alineatul (3) din Constituție). - Legile ordinare reglementează toate celelalte domenii neacoperite de legea organică.",
+        "id": 10
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce tipuri de acte emite Guvernul României?",
+        "answer": "Guvernul adoptă hotărâri și ordonanțe (simple și de urgență): - Hotărârile stabilesc modul în care legile vor fi efectiv puse în aplicare sau alte aspecte organizatorice privind implementarea acestora. - Ordonanțele simple sunt emise în baza unei legi speciale de abilitare. - Ordonanțele de urgență sunt emise în situații extraordinare, când Guvernul consideră necesar.",
+        "id": 11
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre hotărârile de Guvern?",
+        "answer": "Hotărârile de Guvern stabilesc modul în care legile vor fi efectiv puse în aplicare sau alte aspecte organizatorice privind implementarea acestora.",
+        "id": 12
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce tipuri de acte emite Președintele României?",
+        "answer": "Președintele României emite decrete care se publică în Monitorul Oficial al României.",
+        "id": 13
+    },
+    {
+        "category": "Constitution",
+        "question": "Cum este organizat teritoriul României?",
+        "answer": "Teritoriul României este organizat în unități administrativ-teritoriale, respectiv comune, orașe și județe. În condițiile legii, unele orașe sunt declarate municipii.",
+        "id": 14
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este capitala României?",
+        "answer": "Capitala României este București.",
+        "id": 15
+    },
+    {
+        "category": "Constitution",
+        "question": "Cum se pot asocia cetățenii români?",
+        "answer": "Cetățenii se pot asocia liber în sindicate, patronate şi în alte forme de asociere.",
+        "id": 16
+    },
+    {
+        "category": "Constitution",
+        "question": "Asociațiile cu caracter secret sunt permise în România?",
+        "answer": "Asociațiile cu caracter secret sunt interzise.",
+        "id": 17
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este limba oficială a României?",
+        "answer": "Limba oficială este limba română.",
+        "id": 18
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce drepturi au minoritățile naționale?",
+        "answer": "Minoritățile naționale au dreptul la păstrarea, dezvoltarea şi exprimarea identităţii lor etnice, culturale, lingvistice şi religioase.",
+        "id": 19
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce prevede Constituția despre românii din străinătate?",
+        "answer": "Statul român sprijină întărirea legăturilor cu românii din străinatate şi acţionează pentru păstrarea, dezvoltarea şi exprimarea identităţii lor etnice, culturale, lingvistice şi religioase, cu respectarea legislaţiei statului în care aceştia se află.",
+        "id": 20
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce sunt sindicatele?",
+        "answer": "Un sindicat este o organizație a muncitorilor, al cărei scop este protejarea drepturilor acestora. Sindicatele contribuie la apărarea drepturilor şi la promovarea intereselor profesionale, economice şi sociale ale salariaţilor. Sindicatele se constituie şi îşi desfăşoară activitatea potrivit cu statutele lor, în condiţiile legii.",
+        "id": 21
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce sunt patronatele?",
+        "answer": "Patronatele sunt organizații ale angajatorilor, autonome, fără caracter politic și fără scop patrimonial, înfiinţate în scopul apărării și promovării drepturilor și intereselor comune ale membrilor lor.",
+        "id": 22
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt simbolurile naționale ale României?",
+        "answer": "Simbolurile naționale ale României sunt: - drapelul tricolor - ziua națională de 1 Decembrie - imnul național „Deșteaptă-te române” - stema națională - sigiliul național",
+        "id": 23
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre extrădare?",
+        "answer": "Cetățeanul român nu poate fi extrădat din România, cu excepţia, cetăţenilor români ce pot fi extrădaţi în baza convenţiilor internaţionale la care România este parte, în condiţiile legii şi pe bază de reciprocitate. În ceea ce privește străinii sau apatrizii, aceștia pot fi extrădați doar în baza unei convenții internaționale sau pe bază de reciprocitate. Extrădarea se hotărăște în justiție.",
+        "id": 24
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre expulzare?",
+        "answer": "Ca regulă generală, cetățeanul român nu poate fi expulzat din România, cu excepţia, cetăţenilor români ce pot fi expulzați în baza convenţiilor internaţionale la care România este parte, în condiţiile legii şi pe bază de reciprocitate. În ceea ce privește străinii sau apatrizii, aceștia pot fi expulzați doar în baza unei convenții internaționale sau pe bază de reciprocitate. Expulzarea se hotărăște în justiție.",
+        "id": 25
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre accesul liber la justiție?",
+        "answer": "Accesul liber la justiție constă în faptul că orice persoană se poate adresa justiției pentru apărarea drepturilor, a libertăţilor şi a intereselor sale legitime, fiind un drept fundamental. Constituţia prevede că părţile au dreptul la un proces echitabil şi la soluţionarea cauzelor într-un termen rezonabil. De asemenea, nicio lege nu poate îngrădi accesul liber la justiție.",
+        "id": 26
+    },
+    {
+        "category": "Constitution",
+        "question": "Tortura este permisă în România?",
+        "answer": "Constituția garantează dreptul la viață, precum şi dreptul la integritate fizică şi psihică ale persoanei. Astfel, tortura și orice pedeapsă sau tratament inuman sau degradant sunt interzise.",
+        "id": 27
+    },
+    {
+        "category": "Constitution",
+        "question": "Pedeapsa cu moartea este permisă în România?",
+        "answer": "Pedeapsa cu moartea este interzisă în România.",
+        "id": 28
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt drepturile cetățenilor români?",
+        "answer": "Cetățenii români au următoarele drepturi: - egalitatea în drepturi - protecția statului român în străinătate - accesul liber la justiție - dreptul la viață și integritate fizică și psihică - libertatea individuală - dreptul la apărare - libera circulație - dreptul la viață intimă, familială și privată - dreptul la inviolabilitatea domiciliului - dreptul la secretul corespondenței - dreptul la liberă exprimare - dreptul la informație - dreptul la învățătură - accesul la cultură - dreptul la ocrotirea sănătății - dreptul la mediul sănătos - dreptul de vot și dreptul de a fi ales - dreptul la libertatea întrunirilor - dreptul de asociere - dreptul la muncă și protecția socială a muncii - dreptul la grevă - dreptul de proprietate privată - dreptul la moștenire",
+        "id": 29
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre libertatea individuală?",
+        "answer": "Libertatea individuală și siguranța persoanei sunt inviolabile. Acest drept fundamental vizează libertatea fizică a persoanei și dreptul acesteia de a se comporta liber, neținut de vreo restricție.",
+        "id": 30
+    },
+    {
+        "category": "Constitution",
+        "question": "Cât poate dura reținerea unei personae?",
+        "answer": "Reținerea nu poate dura mai mult de 24 de ore.",
+        "id": 31
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre arestarea preventivă?",
+        "answer": "Arestarea preventivă se poate dispune de judecător numai în cursul procesului penal. De asemenea, arestarea preventivă se poate dispune în timpul urmăririi penale pentru cel mult 30 de zile şi se poate prelungi cu câte cel mult 30 de zile, fără ca durata totală să depăşească un termen rezonabil.",
+        "id": 32
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce înseamnă că persoană beneficiază de prezumția de nevinovăție?",
+        "answer": "Prezumția de nevinovăție este principiul potrivit căruia, până la rămânerea definitivă a hotărârii judecătorești de condamnare, persoana este considerată nevinovată.",
+        "id": 33
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul la apărare?",
+        "answer": "Dreptul la apărare este garantat, părțile având dreptul să fie asistate de un avocat, ales sau numit din oficiu, pe toată durata procesului.",
+        "id": 34
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre libera circulație?",
+        "answer": "Dreptul la liberă circulație, atât în țară cât și în afara țării, este garantat. Astfel, fiecăre cetățean își poate stabili domiciliul sau reşedinţa în orice localitate din ţară, de a emigra, precum şi de a reveni în ţară.",
+        "id": 35
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre secretul corespondenței?",
+        "answer": "Secretul corespondenței, adică al scrisorilor, al telegramelor, al altor trimiteri poştale, al convorbirilor telefonice şi al celorlalte mijloace legale de comunicare este inviolabil.",
+        "id": 36
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre inviolabilitatea domiciliului?",
+        "answer": "Inviolabilitatea domiciliului și a reședinței oricărei persone este garantată, stabilind că nimeni nu poate pătrunde sau rămâne în domiciliul ori reședința unei persoane fără acordul acesteia, cu excepțiile prevăzute de lege.",
+        "id": 37
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre libertatea conștiinței?",
+        "answer": "Dreptul la libertatea conștiinței înglobează libertatea gândirii și a opiniilor, cât și libertatea credințelor religioase. Astfel nimeni nu poate fi constrâns să adopte o opinie ori să adere la o credinţă religioasă, contrare convingerilor sale. De asemenea, același articol garanteaza libertatea cultelor religioase, care își pot alege forma de organizare.",
+        "id": 38
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre libertatea de exprimare?",
+        "answer": "Libertatea de exprimare a gândurilor, a opiniilor sau a credințelor și libertatea creațiilor de orice fel, prin viu grai, prin scris, prin imagini, prin sunete sau prin alte mijloace de comunicare în public, sunt inviolabile.",
+        "id": 39
+    },
+    {
+        "category": "Constitution",
+        "question": "Cenzura de orice fel este permisă în România?",
+        "answer": "Cenzura de orice fel este interzisă în România.",
+        "id": 40
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul la informație?",
+        "answer": "Dreptul la informație se referă la obligația autorităților de a asigura informarea corectă a cetăţenilor asupra subiectelor publice și de interes personal. Mijloacele de informare în masă, publice şi private, sunt obligate să asigure informarea corectă a opiniei publice.",
+        "id": 41
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul de vot?",
+        "answer": "Dreptul de vot este unul din drepturile electorale fundamentale, ce oferă cetățenilor cu vârsta de 18 ani la data, împlinită inclusiv la data alegerilor, dreptul de a-și exprima opinia politică.",
+        "id": 42
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul la învățătură?",
+        "answer": "Dreptul la învățătură este asigurat prin învăţământul general obligatoriu, prin învăţământul liceal şi prin cel profesional, prin învăţământul superior, precum şi prin alte forme de instrucţie şi de perfecţionare. Constituția garantează, de asemenea, gratuitatea învățământului, potrivit legii.",
+        "id": 43
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul la ocrotirea sănătății?",
+        "answer": "Dreptul la ocrotirea sănătății se referă la obligația statului de a lua măsuri pentru asigurarea igienei și a sănătății publice.",
+        "id": 44
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul la mediu sănătos?",
+        "answer": "Dreptul la un mediu sănătos se referă la obligația statului de a asigura cadrul legislativ pentru exercitarea acestui drept, dar impunând, în același timp, persoanelor fizice și juridice, să protejeze și să amelioreze mediul înconjurător.",
+        "id": 45
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul de a fi ales?",
+        "answer": "Dreptul de a fi ales este un drept electoral fundamental, care desemnează posibilitatea unei persoane de a îndeplini o demnitate sau funcție electivă în stat. - Cetățenii cu vârsta de cel puțin 23 de ani pot fi aleși în Camera Deputaților sau în organele administrației publice locale - Cetățenii cu vârsta de cel puțin 33 de ani pot fi aleși în Senat - Cetățenii cu vârsta de cel puțin 35 de ani pentru a fi aleși în funcția de Președinte al României",
+        "id": 46
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul de a fi ales în Parlamentul European?",
+        "answer": "Cetățenii români au dreptul de a alege și de a fi aleși în Parlamentul European.",
+        "id": 47
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este durata normală a unei zile de lucru, în medie?",
+        "answer": "Durata normală a zilei de lucru este, în medie, de cel mult 8 ore.",
+        "id": 48
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce activități nu constituie muncă forțată?",
+        "answer": "Nu constituie muncă forțată: - activităţile pentru îndeplinirea îndatoririlor militare, precum şi cele desfăşurate, potrivit legii, în locul acestora, din motive religioase sau de conştiinţă - munca unei persoane condamnate, prestată în condiţii normale, în perioada de detenţie sau de libertate condiţionată - prestaţiile impuse în situaţia creată de calamităţi ori de alt pericol, precum şi cele care fac parte din obligaţiile civile normale stabilite de lege",
+        "id": 49
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul la grevă?",
+        "answer": "Salariații au dreptul la grevă pentru apărarea intereselor profesionale, economice şi sociale, în condițiile legii.",
+        "id": 50
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul de proprietate privată?",
+        "answer": "Cetățeanul român are dreptul de a se bucura şi a dispune de un lucru în mod exclusiv și absolut. De asemenea, Constituția garantează împotriva exproprierii, cu excepția cauzelor de utilitate publică, stabilite conform legii. Legea interzice naționalizările și orice alte măsuri de trecere silită în proprietate publică a unor bunuri pe baza apartenenţei sociale, etnice, religioase, politice sau de altă natură discriminatorie a titularilor.",
+        "id": 51
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce înseamnă noțiunea de expropriere pentru cauză de utilitate publică?",
+        "answer": "Noțiunea de exproprire pentru cauza de utilitate publică reprezintă trecerea în proprietatea statului a unor unităţi administrativ-teritoriale în scopul satisfacerii unor interese publice a unor imobile aparţinând altui proprietar.",
+        "id": 52
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre libertatea economică?",
+        "answer": "Constituția garantează accesul liber al persoanei la o activitate economică cu respectarea principiilor economiei de piaţă şi al liberei iniţiative, fiind vorba despre o manifestare liberă, neplanificată, bazată pe libera iniţiativă şi în condiţiile existenţei unei economii de piaţă.",
+        "id": 53
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre familie?",
+        "answer": "Dreptul la căsătorie şi la întemeierea unei familii reprezintă un drept fundamental. Constituția reglementează constituirea familiei pe căsătoria liber consimţită între soţi, egalitatea acestora şi pe dreptul şi îndatorirea părinţilor de a asigura creşterea, educaţia şi instruirea copiilor. De asemenea, se garantează și egalitatea copiilor din afara căsătoriei cu cei din căsătorie.",
+        "id": 54
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre protecția copiilor și a tinerilor?",
+        "answer": "Statul Român acordă protecție copiilor și tinerilor prin acordarea de alocații pentru copii şi ajutoare pentru îngrijirea copilului bolnav ori cu handicap. De asemenea, Constituția interzice exploatarea și folosirea minorilor în activități ce le-ar pune în primejdie viaţa ori dezvoltarea normală. Copii sub 15 ani sunt protejați, neputând fi angajați ca salariați.",
+        "id": 55
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre protecția persoanelor cu handicap?",
+        "answer": "Constituția oferă persoanelor cu dizabilități toate drepturile și libertățile fundamentale ale omului. In același timp, Constituția prevede realizarea unei politici naționale de egalitate a șanselor și de incluziune, prevenire și tratament în vederea participării efective a persoanelor cu dizabilități în viața comunității.",
+        "id": 56
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dreptul de petiționare?",
+        "answer": "Constituția prevede dreptul cetățenilor și organizațiilor liber constituite de petiționare, drept scutit de taxe, precum și obligația autorităților publice de a răspunde la petiții.",
+        "id": 57
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre restrângerea exercițiului unor drepturi sau al unor libertăți?",
+        "answer": "Pentru ca autorităţile publice să îşi poată îndeplini misiunile chiar şi în situaţii particulare, fară însă a renunţa la protecţia juridică a drepturilor omului, Constituția permite restrângerea unor drepturi şi libertăţi cetăţeneşti, dar numai cu titlu de excepţie şi numai condiţionat: - pentru apărarea securităţii naţionale, a ordinii, a sănătăţii ori a moralei publice, a drepturilor şi a libertăţilor cetăţenilor - în cazul desfăşurării instrucţiei penale - în vederea prevenirii consecinţelor unei calamităţi naturale, ale unui dezastru ori ale unui sinistru deosebit de grav",
+        "id": 58
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt îndatoririle fundamentale ale cetățenilor români?",
+        "answer": "Constituția prevede următoarele îndatoriri ale cetățenilor români: fidelitatea față de țară, dreptul și obligația de apărare a țării, obligația la contribuții financiare și exercitarea drepturilor şi libertăţilor constituţionale cu bună-credinţă.",
+        "id": 59
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre Avocatul Poporului?",
+        "answer": "Avocatul Poporului este numit pe o durată de 5 ani având rolul de apărare a drepturilor și a libertăților persoanelor fizice, exercitându-și atribuțiile din oficiu sau la cererea persoanelor lezate. Avocatul Poporului nu poate îndeplini nicio altă funcție publică sau privată, cu excepția de cadru didactic. Avocatul Poporului prezintă rapoarte celor două Camere ale Parlamentului.",
+        "id": 60
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este durata mandatului Parlamentului?",
+        "answer": "Durata mandatului Parlamentului este de 4 ani, care se prelungeşte de drept în stare de mobilizare, de război, de asediu sau de urgenţă, până la încetarea acestora.",
+        "id": 61
+    },
+    {
+        "category": "Constitution",
+        "question": "În ce condiții își desfășoară lucrările în ședințe comune cele două camere ale Parlamentului?",
+        "answer": "Lucrările şedinţelor comune sunt conduse, alternativ, de preşedintele Camerei Deputaţilor şi de preşedintele Senatului. Şedinţele comune ale celor două Camere sunt publice, cu exceptia cazurilor in care, la cererea preşedintelui care conduce şedinţa sau a unui grup parlamentar, se hotărăşte, cu cel puţin jumătate plus unu din voturile deputaţilor şi senatorilor prezenţi, ca acestea să fie secrete. La şedinţele publice ale celor două Camere pot asista diplomaţi, reprezentanţi ai presei, radioului şi televiziunii, precum şi cetăţeni, pe baza unei autorizaţii sau invitaţii emise de secretarii generali ai aparatelor celor două Camere.",
+        "id": 62
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre sesiunile Parlamentului?",
+        "answer": "Camera Deputaţilor şi Senatul se întrunesc în două sesiuni ordinare pe an. Prima sesiune începe în luna februarie şi nu poate depăşi sfârşitul lunii iunie. A doua sesiune începe în luna septembrie şi nu poate depăşi sfârşitul lunii decembrie. Camera Deputaţilor şi Senatul se întrunesc şi în sesiuni extraordinare, la cererea Preşedintelui României, a biroului permanent al fiecărei Camere ori a cel puţin o treime din numărul deputaţilor sau al senatorilor. Convocarea Camerelor se face de preşedinţii acestora.",
+        "id": 63
+    },
+    {
+        "category": "Constitution",
+        "question": "Cu ce este incompatibilă calitatea de deputat sau de senator?",
+        "answer": "Nimeni nu poate fi, în acelaşi timp, deputat şi senator. Calitatea de deputat sau de senator este incompatibilă cu exercitarea oricărei funcţii publice de autoritate, cu excepţia celei de membru al Guvernului.",
+        "id": 64
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre imunitatea parlamentară?",
+        "answer": "Imunitatea parlamentară are diferite aspecte: deputaţii şi senatorii nu pot fi traşi la răspundere juridică pentru voturile sau pentru opiniile politice exprimate în exercitarea mandatului. Deputaţii şi senatorii pot fi urmăriţi şi trimişi în judecată penală pentru fapte care nu au legătură cu voturile sau cu opiniile politice exprimate în exercitarea mandatului, dar nu pot fi percheziţionaţi, reţinuţi sau arestaţi fără încuviinţarea Camerei din care fac parte, după ascultarea lor. Urmărirea şi trimiterea în judecată penală se pot face numai de către Parchetul de pe lângă Înalta Curte de Casaţie şi Justiţie. Competenţa de judecată aparţine Înaltei Curţi de Casaţie şi Justiţie. În caz de infracţiune flagrantă, deputaţii sau senatorii pot fi reţinuţi şi supuşi percheziţiei.",
+        "id": 65
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre inițiativa legislativă?",
+        "answer": "Iniţiativa legislativă aparţine, după caz, Guvernului, Deputaţilor, Senatorilor sau unui număr de cel puţin 100.000 de cetăţeni cu drept de vot.",
+        "id": 66
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce probleme nu pot face obiectul inițiativei legislative?",
+        "answer": "Nu pot face obiectul iniţiativei legislative a cetăţenilor problemele fiscale, cele cu caracter internaţional, amnistia şi graţierea.",
+        "id": 67
+    },
+    {
+        "category": "Constitution",
+        "question": "Când intră în vigoare o lege?",
+        "answer": "Legea se publică în Monitorul Oficial al României şi intră în vigoare la 3 zile de la data publicării sau la o dată ulterioară prevăzută în textul ei.",
+        "id": 68
+    },
+    {
+        "category": "Constitution",
+        "question": "Când intră în vigoare o ordonanță de urgență?",
+        "answer": "Ordonanţa de urgenţă intră în vigoare numai după depunerea sa spre dezbatere în procedură de urgenţă la Camera competentă să fie sesizată şi după publicarea ei în Monitorul Oficial al României. Camerele, dacă nu se află în sesiune, se convoacă în mod obligatoriu în 5 zile de la depunere sau, după caz, de la trimitere. Dacă în termen de cel mult 30 de zile de la depunere, Camera sesizată nu se pronunţă asupra ordonanţei, aceasta este considerată adoptată şi se trimite celeilalte Camere care decide de asemenea în procedură de urgenţă.",
+        "id": 69
+    },
+    {
+        "category": "Constitution",
+        "question": "În ce domenii nu pot fi adoptate ordonanțe de urgență?",
+        "answer": "Ordonanţele de urgenţă nu pot fi adoptate în domeniul legilor constituţionale, nu pot afecta regimul instituţiilor fundamentale ale statului, drepturile, libertăţile şi îndatoririle prevăzute de Constituţie, drepturile electorale şi nu pot viza măsuri de trecere silită a unor bunuri în proprietate publică.",
+        "id": 70
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce este Consiliul Legislativ?",
+        "answer": "Consiliul Legislativ este organ consultativ de specialitate al Parlamentului, care avizează proiectele de acte normative în vederea sistematizării, unificării şi coordonării întregii legislaţii. El ţine evidenţa oficială a legislaţiei României.",
+        "id": 71
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este rolul Președintelui României?",
+        "answer": "Rolul Preşedintelui României este de reprezentant al statului român şi de garant al independenţei naţionale, al unităţii şi al integrităţii teritoriale a ţării. Preşedintele României veghează la respectarea Constituţiei şi la buna funcţionare a autorităţilor publice. În acest scop, Preşedintele exercită funcţia de mediere între puterile statului, precum şi între stat şi societate.",
+        "id": 72
+    },
+    {
+        "category": "Constitution",
+        "question": "Cum este ales Președintele României?",
+        "answer": "Preşedintele României este ales prin vot universal, egal, direct, secret şi liber exprimat. Este declarat ales candidatul care a întrunit, în primul tur de scrutin, majoritatea de voturi ale alegătorilor înscrişi în listele electorale. În cazul în care nici unul dintre candidaţi nu a întrunit această majoritate, se organizează al doilea tur de scrutin, între primii doi candidaţii in functie de numărul de voturi obţinute în primul tur.",
+        "id": 73
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este durata mandatului Președintelui României?",
+        "answer": "Mandatul Preşedintelui României are o durată de 5 ani şi se exercită de la data depunerii jurământului. Preşedintele României îşi exercită mandatul până la depunerea jurământului de Preşedintele nou ales. Președintele poate avea cel mult două mandate, chiar și succesive.",
+        "id": 74
+    },
+    {
+        "category": "Constitution",
+        "question": "Mandatul Președintelui României poate fi prelungit?",
+        "answer": "Mandatul Preşedintelui României poate fi prelungit, prin lege organică, în caz de război sau de catastrofă.",
+        "id": 75
+    },
+    {
+        "category": "Constitution",
+        "question": "Cum este numit Guvernul României?",
+        "answer": "Preşedintele României desemnează un candidat pentru funcţia de prim-ministru şi numeşte Guvernul pe baza votului de încredere acordat de Parlament. În caz de remaniere guvernamentală sau de vacanţă a postului, Preşedintele revocă şi numeşte, la propunerea primului-ministru, pe unii membri ai Guvernului.",
+        "id": 76
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre dizolvarea Parlamentului?",
+        "answer": "După consultarea preşedinţilor celor două Camere şi a liderilor grupurilor parlamentare, Preşedintele României poate să dizolve Parlamentul, dacă acesta nu a acordat votul de încredere pentru formarea Guvernului în termen de 60 de zile de la prima solicitare şi numai după respingerea a cel puţin două solicitări de învestitură. În cursul unui an, Parlamentul poate fi dizolvat o singură dată. Parlamentul nu poate fi dizolvat în ultimele 6 luni ale mandatului Preşedintelui României şi nici în timpul stării de mobilizare, de război, de asediu sau de urgenţă.",
+        "id": 77
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt atribuțiile Președintelui României în domeniul politicii externe?",
+        "answer": "Preşedintele are multiple atribuții în domeniul politicii externe, printre care: - încheie tratate internaţionale în numele României, negociate de Guvern, şi le supune spre ratificare Parlamentului, într-un termen rezonabil; - la propunerea Guvernului, acreditează şi recheamă reprezentanţii diplomatici ai României şi aprobă înfiinţarea, desfiinţarea sau schimbarea rangului misiunilor diplomatice.",
+        "id": 78
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt atribuțiile Președintelui României în domeniul apărării?",
+        "answer": "Preşedintele României este comandantul forţelor armate şi îndeplineşte funcţia de preşedinte al Consiliului Suprem de Apărare a Ţării. El poate declara, cu aprobarea prealabilă a Parlamentului, mobilizarea parţială sau totală a forţelor armate.",
+        "id": 79
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre măsurile excepționale ce pot fi instituite de către Președintele României?",
+        "answer": "Preşedintele României instituie, potrivit legii, starea de asediu sau starea de urgenţă în întreaga ţară ori în unele unităţi administrativ-teritoriale şi solicită Parlamentului încuviinţarea măsurii adoptate, în cel mult 5 zile de la luarea acesteia.",
+        "id": 80
+    },
+    {
+        "category": "Constitution",
+        "question": "Cine acordă gradele de mareșal, de general și de amiral?",
+        "answer": "Președintele României acordă gradele de mareșal, de general și de amiral.",
+        "id": 81
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre grațierea individuală?",
+        "answer": "Grațierea se măsoară se iartare ce constă în înlăturarea, în total sau în parte, a executării pedepsei aplicate de instanță ori în înlocuirea acesteia în una mai ușoară. Grațierea poate fi acordată individual, prin decret al Președintelui României. Grațierea individuală se acordă la cerere sau din oficiu, după hotărârea definitivă de condamnare.",
+        "id": 82
+    },
+    {
+        "category": "Constitution",
+        "question": "Cine conferă în România decorații și titluri de onoare?",
+        "answer": "Președintele României acordă decorații și titluri de onoare.",
+        "id": 83
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre suspendarea din funcție a Președintelui României?",
+        "answer": "În cazul săvârșirii unor fapte grave prin care încalcă prevederile Constituției, Președintele României poate fi suspendat din funcție de Camera Deputaților și de Senat, în ședință comună, după consultarea Curții Constituționale. Președintele poate da Parlamentului explicații cu privire la faptele de care este acuzat.",
+        "id": 84
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre punerea sub acuzare a Președintelui României?",
+        "answer": "Camera Deputaților și Senatul, în ședință comună, cu votul a cel puțin două treimi din numărul deputaților și senatorilor, pot hotărî punerea sub acuzare a Președintelui României pentru înaltă trădare.",
+        "id": 85
+    },
+    {
+        "category": "Constitution",
+        "question": "Când intervine vacanța funcției de Președinte al României?",
+        "answer": "Vacanța funcției de Președinte al României intervine în caz de demisie, de demitere din funcție, de imposibilitate definitivă a exercitării atribuțiilor sau de deces. În termen de 3 luni de la data la care a intervenit vacanța funcției de Președinte al României, Guvernul va organiza alegeri pentru un nou Președinte.",
+        "id": 86
+    },
+    {
+        "category": "Constitution",
+        "question": "Cine asigură interimatul funcției de Președinte al României?",
+        "answer": "Dacă funcția de Președinte devine vacantă sau dacă Președintele este suspendat din funcție sau dacă se află în imposibilitate temporară de a-și exercita atribuțiile, interimatul se asigură, în ordine, de președintele Senatului sau de președintele Camerei Deputaților.",
+        "id": 87
+    },
+    {
+        "category": "Constitution",
+        "question": "Rolul și structura Guvernului României?",
+        "answer": "Guvernul, potrivit programului său de guvernare acceptat de Parlament, asigură realizarea politicii interne și externe a țării și exercită conducerea generală a administrației publice. În îndeplinirea atribuțiilor sale, Guvernul cooperează cu organismele sociale interesate. Guvernul este alcătuit din prim-ministru, miniștri și alți membri stabiliți prin lege organică.",
+        "id": 88
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt atribuțiile prim-ministrului Guvernului României?",
+        "answer": "Primul-ministru conduce Guvernul și coordonează activitatea membrilor acestuia, respectând atribuțiile ce le revin. De asemenea, primul-ministru prezintă Camerei Deputaților sau Senatului rapoarte și declarații cu privire la politica Guvernului, care se dezbat cu prioritate.",
+        "id": 89
+    },
+    {
+        "category": "Constitution",
+        "question": "Când încetează mandatul Guvernului României?",
+        "answer": "Guvernul își exercită mandatul până la data validării alegerilor parlamentare generale. Guvernul este demis la data retragerii de către Parlament a încrederii acordate sau dacă primul-ministru se află în una dintre situațiile prevăzute la articolul 106, cu excepția revocării, ori este în imposibilitate de a-și exercita atribuțiile mai mult de 45 de zile.",
+        "id": 90
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce sunt întrebările și interpelările parlamentare?",
+        "answer": "Întrebarea constă într-o simplă cerere de a răspunde dacă un fapt este adevărat, dacă Guvernul și celelalte organe ale administrației publice înțeleg să comunice Camerei informațiile și documentele cerute de Camera Deputaților sau de comisiile permanente ale acestora. Interpelarea constă într-o cerere adresată Guvernului de un grup parlamentar, de unul sau mai mulți deputați, prin care se solicită explicații asupra politicii Guvernului în probleme importante ale activității sale interne sau externe.",
+        "id": 91
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre moțiunea de cenzură?",
+        "answer": "Camera Deputaților și Senatul, în ședință comună, pot retrage încrederea acordată Guvernului prin moțiune de cenzură, ce trebuie adoptată cu votul majorității deputaților și senatorilor. Moțiunea de cenzură poate fi inițiată de cel puțin o pătrime din numărul total al deputaților și senatorilor și se dezbate după 3 zile de la data când a fost prezentată în ședință comună a celor două Camere.",
+        "id": 92
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre angajarea răspunderii Guvernului României?",
+        "answer": "Guvernul își poate angaja răspunderea în fața Camerei Deputaților și a Senatului, în ședință comună, asupra unui program, a unei declarații de politică generală sau a unui proiect de lege. Guvernul este demis dacă se adoptă o moțiune de cenzură, depusă în termen de 3 zile de la prezentarea programului, declarației de politică generală sau a proiectului de lege, în toate condițiile Articolului 113 din Constituție.",
+        "id": 93
+    },
+    {
+        "category": "Constitution",
+        "question": "Este permisă organizarea de activități militare sau paramilitare în afara instituțiilor statului?",
+        "answer": "Organizarea de activități militare sau paramilitare în afara instituțiilor statului este interzisă.",
+        "id": 94
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce este Consiliul Suprem de Apărare a Țării?",
+        "answer": "Consiliul Suprem de Apărare a Țării organizează și coordonează activitatea apărării țării și securității naționale, participarea la menținerea securității internaționale și siguranța colectivă în sistemele de alianță militară, precum și acțiuni în vederea asigurării ordinii publice.",
+        "id": 95
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce este Consiliul Județean?",
+        "answer": "Consiliul Județean este autoritatea administrației publice pentru coordonarea activității consiliilor locale și ale primăriilor.",
+        "id": 96
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce este prefectul?",
+        "answer": "Prefectul este reprezentantul Guvernului pe plan local și conduce serviciile publice deconcentrate ale ministerelor și ale celorlalte organe ale administrației publice centrale din unitățile administrativ-teritoriale.",
+        "id": 97
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este statutul judecătorilor?",
+        "answer": "Judecătorii numiți de Președintele României sunt inamovibili. Un judecător nu poate fi eliberat din funcție decât prin acordul acestuia. Funcția de judecător este incompatibilă cu orice altă funcție publică sau privată, cu excepția funcției didactice din învățământul superior.",
+        "id": 98
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre instanțele judecătorești?",
+        "answer": "Justiția se realizează prin Înalta Curte de Casație și Justiție și prin celelalte instanțe judecătorești stabilite de lege. Înalta Curte de Casație și Justiție asigură interpretarea și aplicarea unitară a legii de către celelalte instanțe judecătorești.",
+        "id": 99
+    },
+    {
+        "category": "Constitution",
+        "question": "Este permisă în România înființarea de instanțe extraordinare?",
+        "answer": "Înființarea de instanțe extraordinare este interzisă. Prin lege organică pot fi înființate instanțe specializate în anumite materii, cu posibilitatea participării, după caz, a unor persoane din afara magistraturii.",
+        "id": 100
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre folosirea limbii materne și a interpretului în justiție?",
+        "answer": "În justiția română, limba folosită este limba română. Însă cetățenii români aparținând minorităților naționale au dreptul să se exprime în limba maternă în fața instanțelor de judecată.",
+        "id": 101
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce este Ministerul Public?",
+        "answer": "În activitatea judiciară, Ministerul Public reprezintă interesele generale ale societății și apără ordinea de drept, precum și drepturile și libertățile cetățenilor. Ministerul Public își exercită atribuțiile prin procurori constituiți în parchete pe lângă instanțele judecătorești, conduc și supraveghează activitatea de cercetare penală a poliției judiciare.",
+        "id": 102
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este statutul procurorilor?",
+        "answer": "Funcția de procuror este exercitată potrivit principiului legalității, al imparțialității și al controlului ierarhic, sub autoritatea ministrului justiției. Funcția de procuror este incompatibilă cu orice altă funcție publică sau privată, cu excepția funcțiilor didactice din învățământul superior.",
+        "id": 103
+    },
+    {
+        "category": "Constitution",
+        "question": "Cine face parte din Consiliul Superior al Magistraturii?",
+        "answer": "Consiliul Superior al Magistraturii este alcătuit din 19 membri, din care: 1) unii aleși din adunările generale ale magistraților și validați de Senat; aceștia fac parte din două secții, una pentru judecători și una pentru procurori; prima secție este compusă din 9 judecători, iar cea de-a doua din 5 procurori; 2) reprezentanți ai societății civile, specialiști în domeniul dreptului, care se bucură de reputație profesională și morală, aleși de Senat; aceștia participă numai la lucrările în plen; 3) ministrul justiției, președintele Înaltei Curți de Casație și Justiție și procurorul general al Parchetului de pe lângă Înalta Curte de Casație și Justiție.",
+        "id": 104
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este rolul Consiliului Superior al Magistraturii?",
+        "answer": "Consiliul Superior al Magistraturii este garantul independenței justiției.",
+        "id": 105
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre economia României?",
+        "answer": "Economia României este economie de piață, bazată pe libera inițiativă și concurență. În acest sens, Statul trebuie să asigure: 1) libertatea comerțului, protecția concurenței loiale și crearea cadrului favorabil valorificării tuturor factorilor de producție; 2) protejarea intereselor naționale în activitatea economică, financiară și valutară; 3) exploatarea resurselor naturale, cu respectarea principiului dezvoltării durabile; 4) restaurarea și protecția mediului înconjurător, precum și menținerea echilibrului ecologic; 5) crearea condițiilor necesare pentru creșterea calității vieții; 6) aplicarea politicilor de dezvoltare regională în concordanță cu obiectivele Uniunii Europene.",
+        "id": 106
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre proprietatea publică?",
+        "answer": "Proprietatea publică este garantată și ocrotită prin lege și aparține statului sau unităților administrativ-teritoriale. Bunurile proprietate publică sunt inalienabile. Bogățiile de interes public ale subsolului, spațiului aerian, ape, pădurilor și parcurilor naționale, apele cu potențial energetic valorificabil, plajele, marea teritorială, resursele naturale ale zonei economice și ale platoului continental, precum și alte bunuri stabilite prin lege, constituie obiect exclusiv al proprietății publice.",
+        "id": 107
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre bugetul public național?",
+        "answer": "Bugetul public național cuprinde bugetul de stat, bugetul asigurărilor sociale de stat și bugetele locale ale comunelor, ale orașelor și ale județelor. Guvernul elaborează anual proiectul bugetului de stat și îl supune aprobării Parlamentului.",
+        "id": 108
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este rolul Curții de Conturi?",
+        "answer": "Curtea de Conturi exercită controlul asupra modului de formare, de administrare și de întrebuințare a resurselor financiare ale statului și ale sectorului public.",
+        "id": 109
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce este Curtea Constituțională?",
+        "answer": "Curtea Constituțională este garantul supremației Constituției.",
+        "id": 110
+    },
+    {
+        "category": "Constitution",
+        "question": "Care este componența Curții Constituționale?",
+        "answer": "Curtea Constituțională se compune din nouă judecători, numiți pentru un mandat de 9 ani, care nu poate fi prelungit sau înnoit. Trei judecători sunt numiți de Camera Deputaților, trei de Senat și trei de Președintele României. Judecătorii Curții Constituționale aleg, prin vot secret, președintele acesteia, pentru o perioadă de 3 ani. Curtea Constituțională se înnoiește cu o treime din judecători, ei, din 3 in 3 ani, în condițiile prevăzute de legea organică a Curții.",
+        "id": 111
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce condiții trebuie să îndeplinească pentru numire judecătorii Curții Constituționale?",
+        "answer": "Judecătorii Curții Constituționale trebuie să aibă pregătire juridică superioară, înaltă competență profesională și o vechime de cel puțin 18 ani în activitatea juridică sau în învățământul juridic superior.",
+        "id": 112
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt atribuțiile Curții Constituționale?",
+        "answer": "Curtea Constituțională are următoarele atribuții: - a) se pronunță asupra constituționalității legilor, înainte de promulgarea acestora - b) se pronunță asupra constituționalității tratatelor sau altor acorduri internaționale - c) se pronunță asupra constituționalității regulamentelor Parlamentului - d) hotărăște asupra excepțiilor de neconstituționalitate privind legile și ordonanțele - e) soluționează conflictele juridice de natură constituțională dintre autoritățile publice - f) veghează la respectarea procedurii pentru alegerea Președintelui României și confirmă rezultatele sufragiului - g) constată existența împrejurărilor care justifică interimatul în exercitarea funcției de Președinte al României și comunică cele constatate Parlamentului și Guvernului - h) dă aviz consultativ pentru propunerea de suspendare din funcție a Președintelui României",
+        "id": 113
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre deciziile Curții Constituționale?",
+        "answer": "Deciziile Curții Constituționale se publică în Monitorul Oficial al României. De la data publicării, deciziile sunt general obligatorii și au putere numai pentru viitor.",
+        "id": 114
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre inițiativa revizuirii Constituției României?",
+        "answer": "Revizuirea Constituției poate fi inițiată de Președintele României la propunerea Guvernului, de cel puțin o pătrime din numărul deputaților sau al senatorilor, precum și de cel puțin 500.000 de cetățeni cu drept de vot.",
+        "id": 115
+    },
+    {
+        "category": "Constitution",
+        "question": "Ce știți despre procedura de revizuire a Constituției României?",
+        "answer": "Proiectul sau propunerea de revizuire trebuie adoptată de Camera Deputaților și de Senat, cu o majoritate de cel puțin două treimi din numărul membrilor fiecărei Camere. Revizuirea este definitivă după aprobarea ei prin referendum, organizat în cel mult 30 de zile de la data adoptării proiectului sau a propunerii de revizuire.",
+        "id": 116
+    },
+    {
+        "category": "Constitution",
+        "question": "Care sunt limitele revizuirii Constituției României?",
+        "answer": "Nu pot forma obiectul revizuirii Constituției, dispozițiile privind caracterul național, independent, unitar și indivizibil al statului român, forma republicană de guvernământ, integritatea teritoriului, independența justiției, pluralismul politic, suprimarea drepturilor și a libertăților fundamentale ale cetățenilor sau a garanțiilor acestora și limba oficială. Constituția nu poate fi revizuită pe durata stării de asediu sau a stării de urgență și nici în timp de război.",
+        "id": 117
+    },
+    {
+        "category": "category",
+        "question": "question",
+        "answer": "answer",
+        "id": 118
+    },
+    {
+        "category": "Culture",
+        "question": "Primele scrieri in limba romana?",
+        "answer": "Primele scrieri in limba romana sunt: a) Scrisoarea lui Neacsu din Campulung adresata judelui Hanăș Begner al Brasovului, in 1521. Scrisoarea a fost descoperită în arhivele Brasovului în anul 1894 și oferă informații despre împăratul Soliman al II-lea Magnificul și despre mișcările trupelor sale. b) Textele maramureșene sau rotacizante menționează patru cărți religioase: Codicele voronețean, Psaltirea scheiană, Psaltirea voronețeană și Psaltirea Hurmuzachi. Autorii lor sunt originari din Maramureș, cea ce explică fenomenul de rotacism: în cuvintele de origine latină litera „n” este înlocuită cu „r”.",
+        "id": 119
+    },
+    {
+        "category": "Culture",
+        "question": "Primele publicații în limba română?",
+        "answer": "Primele publicații tipărite în limba română sunt realizate de mai mulți tipografi si calugari scoliti al XVI-lea, printre care: a) Dimitrie Liubavici, împreună cu ucenicii Opera si Petre, tiparesc in 1547 Apostolul. b) Diaconul Coresi tipărește între 1559 și 1583 nouă cărți în limba română: Întrebare creștinească, Evangheliarul, Praxul, Cazania I, Molitvenicul, Psaltirea, Cazania II, Liturghierul, Pravila Sfinților Apostoli. c) Palia de la Orăștie. Tipărită in 1582, cuprinde primele două cărți ale Vechiului Testament (Facerea și Exodul). Este unul dintre primele monumente ale limbii române literare.",
+        "id": 120
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Grigore Ureche?",
+        "answer": "Grigore Ureche a fost un istoric, scriitor și cronicar, recunoscut ca unul dintre cei mai mari cărturari români din prima jumătate a secolului al XVII-lea. Grigore Ureche a lăsat moștenire cronica originală în limba română „Letopisețul Țării Moldovei”.",
+        "id": 121
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Miron Costin?",
+        "answer": "Miron Costin a fost un boier, diplomat, dregător și important cronicar moldovean. Printre operele sale se numără: Letopisețul Țării Moldovei de la Aron Vodă încoace, continuare a operei lui Grigore Ureche din 1594 până în 1661, ani morții lui Ștefăniță Lupu.",
+        "id": 122
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Ion Neculce?",
+        "answer": "Ion Neculce a fost un cronicar moldovean, mare boier, care a ocupat diferite funcții importante în perioada domniei lui Dimitrie Cantemir. Lucrarea cea mai importantă a lui Neculce este Letopisețul Țării Moldovei de la Dabija Vodă până la a doua domnie a lui Constantin Mavrocordat.",
+        "id": 123
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Biblia de la București (1688)?",
+        "answer": "Biblia de la București, cunoscută și sub denumirea de Biblia lui Șerban Cantacuzino, a fost prima traducere completă a Bibliei în limba română, fiind publicată la București în 1688.",
+        "id": 124
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre stilul brâncovenesc?",
+        "answer": "Termenul stil brâncovenesc caracterizează arhitectura, artele plastice din Țara Românească din timpul domniei lui Constantin Brâncoveanu (1688-1714). Istoricii de artă caracterizează uneori stilul brâncovenesc prin analogie cu Renașterea apuseană, datorită structurilor sale clare, raționaliste, dar varietatea lui decorativă permite și folosirea termenului de Baroc brâncovenesc.",
+        "id": 125
+    },
+    {
+        "category": "Culture",
+        "question": "Trei scriitori români din secolul XIX?",
+        "answer": "Trei scriitori români din secolul al XIX-lea au fost: I.L.Caragiale, Nicolae Iorga și Ion Creangă.",
+        "id": 126
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Petrache Poenaru?",
+        "answer": "Petrache Poenaru a fost un pedagog, inventator, inginer și matematician român. Este cunoscut ca fiind inventatorul stiloului.",
+        "id": 127
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Victor Babeș?",
+        "answer": "Victor Babeș a fost un bacteriolog și morfopatolog român, membru al Academiei Române din 1893. În colaborare cu Victor André Cornil, este autorul primului tratat de bacteriologie din lume prin care a pus bazele moderne ale acestei științe. De asemenea, Victor Babeș este fondatorul școlii românești de microbiologie.",
+        "id": 128
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Andrei Mureșanu?",
+        "answer": "Andrei Mureșanu, scris și Mureșanul, a fost un poet și revoluționar român din Transilvania. Poemul său „Un răsunet”, denumit ulterior „Deșteaptă-te, române!”, a devenit imn revoluționar. În 1990, „Deșteaptă-te, române!” a devenit imnul de stat al României.",
+        "id": 129
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Mihai Eminescu?",
+        "answer": "Mihai Eminescu a fost un scriitor, prozator și jurnalist român, socotit de cititorii români și de critica literară drept cel mai important poet din literatura română și geniul literaturii române. Cea mai importantă operă a sa este poemul „Luceafărul”.",
+        "id": 130
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați trei poezii ale lui Mihai Eminescu.?",
+        "answer": "Trei poezii ale lui Mihai Eminescu sunt: Luceafărul, Lacul și Floare albastră.",
+        "id": 131
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Vasile Alecsandri?",
+        "answer": "Vasile Alecsandri a fost un poet, dramaturg, folclorist, om politic, ministru, diplomat, membru fondator al Academiei Române, fondator al teatrului românesc și al literaturii dramatice în România, personalitate marcantă a Moldovei și apoi a României de-a lungul întregului secol al XIX-lea. Printre operele sale se numără Ciclu Chirițelor, Volumul Poezii Poporale și proza Balta-albă.",
+        "id": 132
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Ion Creangă?",
+        "answer": "Ion Creangă a fost un scriitor român, recunoscut datorită măiestriei basmelor, povestilor și povestirilor sale. Ion Creangă este considerat a fi unul dintre clasicii literaturii române mai ales datorită operei sale autobiografice, Amintiri din copilărie, dar și a operelor Capra cu trei iezi și Povestea lui Harap-Alb.",
+        "id": 133
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Ion Luca Caragiale?",
+        "answer": "Ion Luca Caragiale a fost dramaturg, nuvelist, pamfletar, poet, scriitor, director de teatru, comentator politic și ziarist român.",
+        "id": 134
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați două piese de teatru scrise de Ion Luca Caragiale.?",
+        "answer": "Două piese de teatru scrise de Ion Luca Caragiale sunt: O scrisoare pierdută și D-l. Goe.",
+        "id": 135
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați trei pictori români.?",
+        "answer": "Trei pictori români au fost: Nicolae Grigorescu, Ștefan Luchian și Nicolae Tonitza.",
+        "id": 136
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Nicolae Grigorescu?",
+        "answer": "Nicolae Grigorescu este primul dintre fondatorii picturii române moderne. A devenit un simbol pentru tinerele generații de artiști care, în primele decade ale secolului XX, căutau și să identifice și să aducă la lumină valorile spiritualității românești. Este recunoscut pentru picturile realizate în Mănăstirea Căldărușani, Mănăstirea Zamfira și Mănăstirea Agapia, dar și pentru operele de artă precum Carul cu boi, Apus de soare la Barbizon și Spălătorese la râu.",
+        "id": 137
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Ștefan Luchian?",
+        "answer": "Ștefan Luchian a fost pictor român, supranumit poetul plastic al florilor. Marele aport inovator adus de Luchian în pictura românească din acele vremuri este reprezentat de modul de transpunere a efectelor de lumină. Este recunoscut pentru operele de artă precum Două fete, Anemone, Irmocle, Albastrele.",
+        "id": 138
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Nicolae Tonitza?",
+        "answer": "Nicolae Tonitza a fost un pictor și grafician român, născut la Bârlad, a studiat la școala națională de arte din Iași, apoi în Germania (Munchen) și Franța (Paris). Pictează peisaje, portrete și compoziții, pe care le expune în atelierul său din Montparnasse, iar în 1911 se întoarce în România fiind considerat cel mai de important pictor român în viață. Începând cu 1934 devine rectorul Academiei Belle-Arte din Iași.",
+        "id": 139
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Camil Ressu?",
+        "answer": "Camil Ressu a fost un pictor român, care prin întreaga sa activitate artistică, pedagogică și socială, a fost una din personalitățile marcante ale artei românești. Camil Ressu a fost membru titular al Academiei Române. Este recunoscut pentru operele de artă precum Aiși, Nud, Strengarul.",
+        "id": 140
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Theodor Pallady?",
+        "answer": "Theodor Pallady a fost un pictor român, care a studiat inițial ingineria în Germania (Dresda), însă luă în același timp și lecții de desen. Inclinația artistică i-a fost recunoscută și a fost încurajat să meargă la Paris pentru a-și perfecționa stilul. În 1940 se întoarce inapoi în România și își expune operele la Ateneul Român și la Saloanele Oficiale. Este recunoscut pentru operele de artă precum Cafe de Dame, Nud, Nataua moarta cu flori roșii.",
+        "id": 141
+    },
+    {
+        "category": "Culture",
+        "question": "Primul film românesc?",
+        "answer": "In 1897, a fost filmat primul film documentar din România – Parada regală, care îl arată pe Regele Carol I în fruntea paradei. Primul film românesc fără sonor a fost pelicula Scurtmetraj apărută in 1910, iar Primul film românesc cu sonor a fost filmat în 1935 și s-a numit Bing Bang.",
+        "id": 142
+    },
+    {
+        "category": "Culture",
+        "question": "Scriitori români din secolul XX?",
+        "answer": "Scriitorii români importanți din secolul XX au fost: Tudor Arghezi, Ion Barbu și Lucian Blaga.",
+        "id": 143
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Emil Racoviță?",
+        "answer": "Emil Racoviță a fost un savant, explorator, speolog și biolog român, considerat fondatorul bio-speologiei (studiul faunei din subteran - peșteri și pânze freatice de apă). Acesta a urmat cursurile Facultății de științe a Universității Sorbon din Paris. A efectuat expediții în Antarctica (Polul Sud), unde a studiat îndeaproape balenele și pinguinii. El a rămas în istoria științei și descoperitor al balenei cu cio.",
+        "id": 144
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Constantin Brâncuși?",
+        "answer": "Constantin Brâncuși a fost cel mai important sculptor român cu mari contribuții în sculptura contemporană. Acesta a studiat la Cluj și București, iar în 1903 pleacă pe jos către Paris, Franța, unde este admis la Școala Superioară Națională de Arte Frumoase. Ulterior, și-a stabilit atelierul în Paris, având expoziții în SUA, Franța și România.",
+        "id": 145
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați două opere ale lui Constantin Brâncuși.?",
+        "answer": "Unele dintre cele mai cunoscute opere ale sale sunt: Coloana Infinitului, Masa tăcerii.",
+        "id": 146
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Traian Vuia?",
+        "answer": "Traian Vuia a fost un inventator român, pionier al aviației mondiale. Acesta urmează cursurile Universității Politehnica din Budapesta și ale Facultății de Drept, domeniu în care își dă și doctoratul. În anul 1906, a realizat primul zbor, autopropulsat, cu un aparat mai greu decât aerul. Aparatul s-a înălțat la 1m de sol pe o distanță de 12m.",
+        "id": 147
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Aurel Vlaicu?",
+        "answer": "Aurel Vlaicu a fost un inginer român, inventator și pionier al aviației române și mondiale. Acesta a studiat la Universitatea Politehnica din Budapesta și în Munchen, întocându-se în București unde și-a construit și testat un planor. În 1911 a reușit să treacă liniile unei încercări de a traversa Munții Carpați cu avionul Vlaicu I, s-a prăbușit în apropiere de Câmpina.",
+        "id": 148
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Henri Coandă?",
+        "answer": "Henri Coandă a fost academician și inginer aeronautic român, pionier al aviației, inventator al primului avion cu reacție și descoperitor al efectului Coandă (efectul de deviere al unui jet de apă în apropierea unei suprafețe curbe). A studiat atât în România Școala de Ofițeri și, ulterior, la Universitatea Tehnică din Berlin. Fiind pasionat de aeronautică, obține aprobarea de a părăsi armata și este admis la Școala Superioară de aeronautică și construcții din Paris.",
+        "id": 149
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Anghel Saligny?",
+        "answer": "Anghel I. Saligny a fost unul dintre întemeietorii ingineriei românești, academician, inginer constructor, ministru și pedagog român. Acesta și-a desăvârșit studiile în Germania, urmând cursurile Universității Tehnice din Berlin. Este unul dintre tehnicienii mondiali de proiectare și construcția podurilor și silozurilor cu structuri metalice, respectiv de beton armat. Este recunoscut pentru podul construit peste Dunăre, de la Fetești la Cernavodă, cel mai lung pod din Europa la momentul construcției sale.",
+        "id": 150
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Ciprian Porumbescu?",
+        "answer": "Ciprian Porumbescu a fost unul dintre cei mai cunoscuți și apreciați compozitori români al secolului al XIX-lea, datorită talentului său excepțional. Acesta a studiat la Conservatorul din Viena și teologie la Cernăuți. Este recunoscut ca fiind creatorul primei operete românești, Crai Nou și a scris melodia imnului național al României din perioada comunistă Trei culori.",
+        "id": 151
+    },
+    {
+        "category": "Culture",
+        "question": "Care este cel mai important compozitor român?",
+        "answer": "Cel mai important compozitor român a fost George Enescu.",
+        "id": 152
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați două compoziții ale lui George Enescu.?",
+        "answer": "Două compoziții ale lui George Enescu sunt Oedip și Poema Română.",
+        "id": 153
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Dinu Lipatti?",
+        "answer": "Dinu Lipatti, a fost un pianist, compozitor și pedagog român. Provine dintr-o familie de artiști, mama – pianistă, iar tatăl – violonist. Acesta a urmat studiile la Conservatorul din București, fiind continuate apoi in Paris. Dinu Lipatti s-a stins din viață la 33 de ani, însă este considerat a fi cel mai important pianist român.",
+        "id": 154
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Tristan Tzara?",
+        "answer": "Tristan Tzara este un important poet și eseist român, a fost cofondatorul mișcării culturale dadaiste, care a condus la o revoluție majoră în artele plastice și literatură.",
+        "id": 155
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Mihail Sadoveanu?",
+        "answer": "Mihail Sadoveanu a fost un scriitor, povestitor, nuvelist, romancier și academician român. Își finalizează studiile la Liceul Național din Iași și începe cursurile la Facultatea de Drept, pe care nu o termină. El este cunoscut mai ales pentru romanele sale istorice și de aventuri, printre cele mai importante opere ale sale se enumeră Domnul Trandafir, Hanul Ancuței, Frații Jderi.",
+        "id": 156
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Lucian Blaga?",
+        "answer": "Lucian Blaga a fost un eseist, filozof, poet, dramaturg, academician și diplomat român.",
+        "id": 157
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Tudor Arghezi?",
+        "answer": "Tudor Arghezi a fost un scriitor român, cunoscut pentru contribuția sa la dezvoltarea liricii românești sub influența baudelairianismului. Opera sa poetică, de o originalitate exemplară, reprezintă o altă mare creație a literaturii române. A scris, între altele, teatru, proză, prozaic, precum și literatură pentru copii.",
+        "id": 158
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Liviu Rebreanu?",
+        "answer": "Liviu Rebreanu a fost un prozator și dramaturg român, membru titular al Academiei Române. Liviu Rebreanu este cunoscut pentru operele sale care cuprind, printre altele, povestiri, nuvele, romane realiste și polițiste. A fost directorul Teatrului Național București în perioada decembre 1928, 1930 și 1940-1944.",
+        "id": 159
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Grigore Antipa?",
+        "answer": "Grigore Antipa a fost un naturalist, biolog darwinist, zoolog, ecolog, oceanolog și profesor universitar român. Este savantul care a reorganizat Muzeul Național de Istorie Naturală în noua clădire care astăzi îi poartă numele.",
+        "id": 160
+    },
+    {
+        "category": "Culture",
+        "question": "Trei personalități care sunt îngropate în cimitirul Bellu?",
+        "answer": "Trei personalități care sunt îngropate în Cimitirul Bellu sunt: Mihai Eminescu, Liviu Rebreanu și George Bacovia.",
+        "id": 161
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Muzeul Satului?",
+        "answer": "Muzeul Național al Satului „Dimitrie Gusti” din București este „Muzeul din inima capitalei”, care și-a deschis porțile pentru public în anul 1936 și este obiectivul cultural cel mai vizitat din România în prezent. Expoziția permanentă acoperă o suprafață de 14 ha și găzduiește monumente, obiecte și documente de arhivă referitoare la sat și viața sa tradițională.",
+        "id": 162
+    },
+    {
+        "category": "Culture",
+        "question": "Numiți trei muzee din București?",
+        "answer": "Trei muzee din București sunt: Muzeul Național al Satului, Muzeul Național de Istorie Naturală “Grigore Antipa” și Muzeul Național de Artă al României.",
+        "id": 163
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost George Emil Palade?",
+        "answer": "George Emil Palade a fost un biolog, medic și om de știință american de origine română, specialist în domeniul biologiei celulare, laureat în 1974 al premiului Nobel pentru fiziologie și medicină. În 1986 i-a fost conferită în Statele Unite National Medal of Science „Medalia Națională pentru Știință” în biologie.",
+        "id": 164
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați trei actori români?",
+        "answer": "Trei actori români sunt: Maia Morgenstern, Marius Manole și Adriana Trandafir.",
+        "id": 165
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați trei filme românești?",
+        "answer": "Trei filme românești sunt: Neamul Șoimăreștilor, Baltagul și Mihai Viteazul.",
+        "id": 166
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați trei regizori români?",
+        "answer": "Trei regizori români sunt: Constantin Radovici, Constantin Tănase și Liviu Ciulei.",
+        "id": 167
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Liviu Ciulei?",
+        "answer": "Liviu Ciulei a fost un regizor, actor, scenograf, arhitect și profesor universitar român. A fost director artistic al Teatrului Bulandra, între anii 1963 și 1974, de unde a fost îndepărtat de cenzura comunistă. Sub conducerea sa, Teatrul Bulandra devine cea mai importantă instituție teatrală a vremii, nu doar în România.",
+        "id": 168
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Academia Română?",
+        "answer": "Academia Română este cel mai înalt for de știință și de cultură din România. A fost fondată la 1 aprilie 1866, sub denumirea de Societatea Literară Română, iar din anul 1879 a primit denumirea de Academia Română. Conform statutului, rolul principal al Academiei constă, printre multe altele, în cultivarea limbii și literaturii române, stabilirea normelor de ortografie obligatorii ale limbii române și studierea istoriei românești. Câteva mai reprezentative lucrări academice sunt: Dicționarul limbii române, Dicționarul explicativ al limbii române, Dicționarul general al literaturii române, Micul dicționar academic și Tratatul de istoria românilor.",
+        "id": 169
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Mircea Eliade?",
+        "answer": "Mircea Eliade a fost un istoric al religiilor, scriitor de filosofie, filosof și profesor român la Universitatea din Chicago, din 1957, titular al catedrei de istoria religiilor. În același timp, el este autorul a 30 de volume științifice, opere literare și eseurii filozofice traduse în 18 limbi și a scrie 120 de articole și recenzii cu o tematică variată. Este membru post-mortem al Academiei Române.",
+        "id": 170
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Eugen Ionescu?",
+        "answer": "Eugen Ionescu, cunoscut în afara României sub numele de Eugene Ionesco, conform ortografiei franceze, a fost un scriitor de limbă franceză originar din România, protagonist al teatrului absurdului și membru al Academiei Franceze.",
+        "id": 171
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Emil Cioran?",
+        "answer": "Emil Cioran a fost un filozof și eseist român, care a publicat lucrări atât în limba română, cât și în franceză. Opera sa a fost remarcată pentru pesimismul său filosofic omniprezent și care implică frecvent cu probleme de suferință, degradare și nihilism. Printre cele mai cunoscute lucrări ale sale se numără: Pe culmile deznădejdii și Despre neajunsul de a te fi născut.",
+        "id": 172
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Herta Muller?",
+        "answer": "Herta Muller este o scriitoare germană de limbă germană și română, originară din România, laureată a Premiului Nobel pentru Literatură pe anul 2009.",
+        "id": 173
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Nicolae Iorga?",
+        "answer": "Nicolae Iorga a fost un istoric, profesor universitar, enciclopedist, poet, dramaturg, critic literar, om politic, membru titular al Academiei Române. Iorga este cel mai prolific istoric al românilor, autor a numeroase sinteze, culminate cu Istoria Românilor în 10 volume, pentru care este recunoscut drept cel mai mare istoric și savant al României din toate timpurile.",
+        "id": 174
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Carol Davila?",
+        "answer": "Carol Davila a fost un medic și farmacist român, de origine franceză, născut în Italia. A fost ales post-mortem membru al Academiei Române. Acesta a construit, din aproape în aproape, un sistem medical pe care l-a implementat cu succes în serviciul sanitar militar și civil.",
+        "id": 175
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Ana Aslan?",
+        "answer": "Ana Aslan a fost un medic român specialist în gerontologie, academician, director al Institutului Național de Geriatrie și Gerontologie. A evidențiat importanța procainei în ameliorarea tulburărilor distrofice legate de vârstă, aplicând-o pe scară largă în clinica de geriatrie, sub numele de Gerovital. Ana Aslan a inventat (în colaborare cu farmacista Elena Polovrăgeanu) produsul geriatric Aslavital, brevetat și introdus în producția industrială în 1980.",
+        "id": 176
+    },
+    {
+        "category": "Culture",
+        "question": "Enumerați trei sărbători legale?",
+        "answer": "Trei sărbători legale sunt: Ziua Națională a României, Anul Nou și Crăciunul.",
+        "id": 177
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sunt Dragobetele?",
+        "answer": "În fiecare an pe 24 februarie românii de pretutindeni sărbătoresc Dragobetele, sărbătoarea similară Sfântului Valentin. În mitologia românească, Dragobete era zeul tinereții, al veseliei, dar și al iubirii. Dragobete este un personaj transmis din generație în generație de la vechi dacii, transformat mai apoi într-un protector al tinerilor și patron al iubirii. Celebrarea reprezintă, de asemenea, începutul unui nou anotimp.",
+        "id": 178
+    },
+    {
+        "category": "Culture",
+        "question": "Ce este Mărțișorul?",
+        "answer": "Mărțișorul este un obiect de podoabă legat de un anumit împletit dintr-un fir alb și unul roșu, care apare în tradiția românilor și a unor populații învecinate. Impreună cu mărțișorul se oferă adesea și flori timpului de primăvară, cea mai reprezentativă fiind ghiocelul.",
+        "id": 179
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Marin Preda?",
+        "answer": "Marin Preda a fost un scriitor român postbelic și director al editurii Cartea Românească. El este autorul celebrului roman „Moromeții”.",
+        "id": 180
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Marin Sorescu?",
+        "answer": "Marin Sorescu a fost un scriitor român, membru titular al Academiei Române. Dramaturgia lui Marin Sorescu abordează cu precădere tematica teatrului poetico-parabolic în trilogia „Setea Muntelui de sare”, precum și operele Iona, Paracliserul și Matca.",
+        "id": 181
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Nichita Stănescu?",
+        "answer": "Nichita Stănescu a fost un poet, scriitor și eseist român, ales membru post-mortem al Academiei Române. Este considerat de critica literară și de publicul larg drept unul dintre cei mai importanți scriitori de limbă română. Nichita Stănescu aparține neo-modernismului românesc.",
+        "id": 182
+    },
+    {
+        "category": "Culture",
+        "question": "Cine a fost Sergiu Celibidache?",
+        "answer": "Sergiu Celibidache a fost un dirijor și compozitor român, membru de onoare al Academiei Române.",
+        "id": 183
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Angela Gheorghiu?",
+        "answer": "Angela Gheorghiu este o soprană română, una dintre cele mai renumite cântărețe de operă din lume.",
+        "id": 184
+    },
+    {
+        "category": "Culture",
+        "question": "Obiceiuri și tradiții de Crăciun?",
+        "answer": "Obiceiuri și tradiții de Crăciun sunt: colindatul, masa de Crăciun, împodobitul bradului în ajunul Crăciunului.",
+        "id": 185
+    },
+    {
+        "category": "Culture",
+        "question": "Obiceiuri și tradiții de Paște?",
+        "answer": "Obiceiuri și tradiții de Paște sunt: vopsirea ouălor în roșu, mersul în noaptea de Înviere la biserică pentru a lua lumină, gătitul de pască și miel.",
+        "id": 186
+    },
+    {
+        "category": "Culture",
+        "question": "Obiceiuri și tradiții de Anul Nou?",
+        "answer": "Obiceiuri și tradiții de Anul Nou sunt: colindatul cu sorcova, colindatul cu ursul/capra.",
+        "id": 187
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbătoare legală este pe data de 1 Mai?",
+        "answer": "Pe data de 1 Mai este Ziua Muncii.",
+        "id": 188
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbătoare legală este pe data de 1 Iunie?",
+        "answer": "Pe data de 1 Iunie este Ziua Copilului.",
+        "id": 189
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbători legale sunt 1 și 2 ianuarie?",
+        "answer": "Pe 1 și 2 ianuarie sărbătorim Anul Nou și a doua zi după Anul Nou.",
+        "id": 190
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbătoare legală este pe data de 24 Ianuarie?",
+        "answer": "Pe data de 24 Ianuarie sărbătorim Ziua Unirii Principatelor Române.",
+        "id": 191
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbătoare legală este pe data de 15 august?",
+        "answer": "Pe data de 15 august sărbătorim Adormirea Maicii Domnului.",
+        "id": 192
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbătoare legală este pe data de 30 noiembrie?",
+        "answer": "Pe data de 30 noiembrie sărbătorim Sfântul Andrei.",
+        "id": 193
+    },
+    {
+        "category": "Culture",
+        "question": "Care este Ziua Națională a României?",
+        "answer": "Ziua Națională a României este 1 decembrie.",
+        "id": 194
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbători legale sunt în 25 și 26 decembrie?",
+        "answer": "În 25 și 26 decembrie sărbătorim Crăciunul și a doua zi de Crăciun.",
+        "id": 195
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbătoare pe data de 15 ianuarie?",
+        "answer": "Pe data de 15 ianuarie sărbătorim Ziua Culturii Naționale, fiind și data de naștere a marelui poet român, Mihai Eminescu.",
+        "id": 196
+    },
+    {
+        "category": "Culture",
+        "question": "Ce sărbătoare pe data de 9 mai?",
+        "answer": "Pe data de 9 mai sărbătorim Ziua Independenței, când România devine stat independent, Ziua Europei, atât cât și Ziua Victoriei, care marchează semnarea actului de capitulare de către Germania nazistă.",
+        "id": 197
+    },
+    {
+        "category": "Culture",
+        "question": "Numiți trei sportivi români de renume internațional?",
+        "answer": "Trei sportivi români de renume internațional sunt: Nadia Comăneci, Gheorghe Hagi și Ilie Năstase.",
+        "id": 198
+    },
+    {
+        "category": "Culture",
+        "question": "Numiți trei cluburi sportive din România?",
+        "answer": "Trei cluburi sportive din România sunt: FCSB, Dinamo și CSM București.",
+        "id": 199
+    },
+    {
+        "category": "Culture",
+        "question": "Numiți trei zone folclorice românești?",
+        "answer": "Trei zone folclorice românești sunt următoarele: Banat, Dobrogea, Moldova.",
+        "id": 200
+    },
+    {
+        "category": "Culture",
+        "question": "Mâncăruri specifice românești de Crăciun?",
+        "answer": "Mâncăruri specifice românești de Crăciun sunt: sarmalele, caltaboșul, piftia, cozonacul.",
+        "id": 201
+    },
+    {
+        "category": "Culture",
+        "question": "Mâncăruri specifice românești de Paște?",
+        "answer": "Mâncăruri specifice românești de Paște sunt: cozonacul, pasca, drobul, sarmalele, caltaboșul, piftia.",
+        "id": 202
+    },
+    {
+        "category": "Culture",
+        "question": "Feluri de mâncare tipic românești?",
+        "answer": "Feluri de mâncare tipic românești sunt: mămăliga, mici, telemeaua, sarmalele, ciorba de burtă.",
+        "id": 203
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Biserica Neagră din Brașov?",
+        "answer": "Biserica Neagră este o biserică situată în centrul municipiului Brașov. Clădirea gotică a fost parțial avariată în incendiul din 1689, când zidurile ei s-au înnegrit și a primit numele actual.",
+        "id": 204
+    },
+    {
+        "category": "Culture",
+        "question": "Ce este Ignatul?",
+        "answer": "În fiecare an, pe 20 decembrie, în România se sărbătorește Ignatul, ziua în care au loc următoarele activități: tăierea porcului, urmată de sortarea și prepararea specialităților pentru apropiațele sărbători de Crăciun.",
+        "id": 205
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Dragobete?",
+        "answer": "În mitologia românească, Dragobete era tineretii, al veseliei, dar și al iubirii.",
+        "id": 206
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Mărțișor?",
+        "answer": "Originile mărțișorului nu sunt cunoscute exact. Este considerat a avea origini daco-tracice datorită prezenței sale atât la români cât și la bulgari, sub numele de Martenița.",
+        "id": 207
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Călușari?",
+        "answer": "Călușarii reprezintă participații la dansul Călușului, dans tradițional românesc, prezent de pe timpuri atât in Moldova, Oltenia, cât și în Transilvania.",
+        "id": 208
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre colinde?",
+        "answer": "Colindele sunt cântece tradiționale românești, anume felicitări (urări) în versuri de Crăciun. Colindele sunt legate de obiceiul colindatului.",
+        "id": 209
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre obiceiul împodobirii bradului?",
+        "answer": "Pomul (sau Bradul) de Crăciun este de obicei un conifer decorat, asociat cu celebrarea Crăciunului. Este adus în case și decorat cu lumini de Crăciun în Ajun de Crăciun, pe 24 decembrie. Un înger sau o stea poate fi pusă în vârful pomului, reprezentând îngerul sau steaua de la Betleem.",
+        "id": 210
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Palatul Mogosoaia?",
+        "answer": "Piatră de temelie a monumentului istoric a fost pusă de către domnitorul Constantin Brâncoveanu în anul 1698 pentru ca mai târziu, la data de 20 septembrie 1702, clădirea să fie finalizată. Monument istoric cu arhitectură deosebită, Palatul Mogoșoaia, a suferit de-a lungul timpului multiple distrugeri și a fost întrebuițat în diferite moduri, în funcție de conducătorii acestuia.",
+        "id": 211
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Palatul Brukenthal?",
+        "answer": "Palatul Brukenthal din Sibiu este un palat construit între anii 1778–1788 în orașul Sibiu de baronul Samuel von Brukenthal. El a fost înălțat în etape, cu scopul de a fi reședință oficială a baronului von Brukenthal și sediul al colecțiilor sale. In prezent Palatul Brukenthal adăpostește Galeria de Artă și Biblioteca Muzeului Național Brukenthal, unde se află cele mai valoroase colecții de picturi baroce din centrul și estul Europei.",
+        "id": 212
+    },
+    {
+        "category": "Culture",
+        "question": "Ce este UNESCO?",
+        "answer": "UNESCO (Organizația Națiunilor Unite pentru Educație, Știință și Cultură, conform denumirii originale din engleză, United Nations Educational, Scientific and Cultural Organization) a fost fondată în 1945. Una dintre misiunile UNESCO este cea de a menține o listă de locuri din patrimoniul mondial. Aceste locuri sunt importante din punct de vedere natural sau istoric, a căror conservare și salvare sunt importante pentru comunitatea mondială.",
+        "id": 213
+    },
+    {
+        "category": "Culture",
+        "question": "Două situri culturale din România înscrise în patrimoniul mondial UNESCO?",
+        "answer": "Două situri culturale din România înscrise în patrimoniul mondial UNESCO sunt: Delta Dunării și Centrul Istoric al Sighișoarei.",
+        "id": 214
+    },
+    {
+        "category": "Culture",
+        "question": "Ce știți despre Muzeul civilizației populațiilor tradiționale ASTRA?",
+        "answer": "Situat în centrul României, la Sibiu, Complexul Național Muzeal ASTRA este cea mai importantă instituție etnomuzeală din România. Muzeul s-a născut din dorința românilor ardeleni de a-și defini propria identitate etnoculturală, în conglomeratul etnic al Imperiului Austro-Ungar și pe fondul emancipării culturale a tuturor popoarelor din centrul și sud-estul Europei.",
+        "id": 215
+    },
+    {
+        "category": "Culture",
+        "question": "Ce oraș din România a fost declarat capitală culturală europeană în 2007?",
+        "answer": "Orașul din România care a fost declarat capitală culturală europeană în 2007 este Sibiu.",
+        "id": 216
+    },
+    {
+        "category": "Culture",
+        "question": "Ce oraș din România va fi capitală culturală europeană în 2021?",
+        "answer": "Orașul din România care va fi capitală culturală europeană în 2021 este Timișoara.",
+        "id": 217
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A ajunge cuțitul la os”?",
+        "answer": "Expresia „A ajunge cuțitul la os” înseamnă a ajunge la capătul puterii; a fi într-o situație disperată.",
+        "id": 218
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A avea ac de cojocul cuiva”?",
+        "answer": "Expresia „A avea ac de cojocul cuiva” înseamnă a pune pe cineva la punct; a pedepsi pe cineva.",
+        "id": 219
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A căra apă cu ciurul”?",
+        "answer": "Expresia „A căra apă cu ciurul” înseamnă a munci fără spor, în zadar sau a nu fi de nici un ajutor, folos (cuiva sau la ceva); a nu face nimic.",
+        "id": 220
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A face umbră pământului degeaba”?",
+        "answer": "Expresia „A face umbră pământului degeaba” înseamnă a nu fi în stare să realizeze nimic; a nu fi bun de nimic.",
+        "id": 221
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A fi cu ochii în patru”?",
+        "answer": "Expresia „A fi cu ochii în patru” înseamnă a fi atent, a fi vigilant.",
+        "id": 222
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A pune carul înaintea boilor”?",
+        "answer": "Expresia „A pune carul înaintea boilor” înseamnă a lucra haotic / dezorganizat; a efectua o serie de acțiuni într-o ordine improprie / nefirească.",
+        "id": 223
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A bate fierul cât e cald”?",
+        "answer": "Expresia „A bate fierul cât e cald” înseamnă a acționa până nu e prea târziu.",
+        "id": 224
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A face cum îi taie capul”?",
+        "answer": "Expresia „A face cum îi taie capul” înseamnă a acționa conform propriilor dorințe / după bunul plac.",
+        "id": 225
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A bate la ochi”?",
+        "answer": "Expresia „A bate la ochi” înseamnă a fi suspect / dubios; a atrage atenția.",
+        "id": 226
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați expresia „A călca pe bec”?",
+        "answer": "Expresia „A călca pe bec” înseamnă o situație dificilă, fără ieșire, un obstacol neprevăzut, o greșeală, o situație delicată.",
+        "id": 227
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Corb la corb nu scoate ochii”?",
+        "answer": "Proverbul „Corb la corb nu scoate ochii” înseamnă că cei care se aseamănă se protejează reciproc.",
+        "id": 228
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Buturuga mică răstoarnă carul mare”?",
+        "answer": "Proverbul „Buturuga mică răstoarnă carul mare” înseamnă că un lucru mic poate avea uneori o importanță deosebită.",
+        "id": 229
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „După război, mulți viteji se arată”?",
+        "answer": "În proverbul „După război, mulți viteji se arată” este descrisă situația în care atunci când pericolul sau greul a trecut, cei ce au stat deoparte și nu s-au implicat în rezolvarea problemei ies în evidență pentru a-și asuma aceste merite nemeritate.",
+        "id": 230
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Cine aleargă după doi iepuri nu prinde niciunul”?",
+        "answer": "În proverbul „Cine aleargă după doi iepuri nu prinde niciunul” se descrie situația în care atunci când dorești să realizezi două activități concomitent nu reușești să duci la bun sfârșit niciuna dintre acțiuni.",
+        "id": 231
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „La pomul lăudat să nu te duci cu sacul”?",
+        "answer": "În proverbul „La pomul lăudat să nu te duci cu sacul” este subliniată ideea că nu orice lucru lăudat de alții, se ridică la măsura așteptărilor noastre sau corespunde nevoilor noastre.",
+        "id": 232
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Lupul își schimbă părul, dar năravul ba”?",
+        "answer": "În proverbul „Lupul își schimbă părul, dar năravul ba” este subliniată ideea că deprinderile rele și învechite nu se schimbă ușor.",
+        "id": 233
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Mi-e milă de tine, dar de mine mi se rupe inima”?",
+        "answer": "În proverbul „Mi-e milă de tine, dar de mine mi se rupe inima” este subliniată ideea că oricât de mult ai vrea să îi ajuți pe alții, ajutorul dat lor nu trebuie să te afecteze în mod negativ și trebuie să te pui pe tine pe primul loc.",
+        "id": 234
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Nu face ce face popa, fă ce zice popa”?",
+        "answer": "În proverbul „Nu face ce face popa, fă ce zice popa” este subliniată ideea acceptării ipocriziei ca stare de fapt în societate; mulți oameni care ar trebui să reprezinte un exemplu prin poziția pe care o au și ceea ce zic, sunt trădați de propriile acțiuni, întrucât nu respectă chiar sfaturile pe care ele le dau altora.",
+        "id": 235
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Paza bună trece primejdia rea”?",
+        "answer": "Proverbul „Paza bună trece primejdia rea” subliniază ideea de prudență înlătură întâmplările neplăcute.",
+        "id": 236
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul „Ulciorul nu merge de multe ori la apă”?",
+        "answer": "Proverbul „Ulciorul nu merge de multe ori la apă” subliniază ideea că nu se poate întâmpla același lucru de mai multe ori.",
+        "id": 237
+    },
+    {
+        "category": "Culture",
+        "question": "Explicați proverbul: \"Vorbești de lup și lupul la ușă\"?",
+        "answer": "Proverbul: \"Vrobesti de lup si lupul la usa\" descrie situatia in care atunci cand vrobesti despre cineva, acesta tocmai soseste in locul in care te afli",
+        "id": 238
+    },
+    {
+        "category": "category",
+        "question": "question",
+        "answer": "answer",
+        "id": 239
+    },
+    {
+        "category": "Geography",
+        "question": "Poziția geografică a României pe glob.?",
+        "answer": "România este situată în sud-estul Europei Centrale, în nordul Peninsulei Balcanice, în bazinul inferior al fluviului Dunărea, cu ieșire la Marea Neagră.",
+        "id": 240
+    },
+    {
+        "category": "Geography",
+        "question": "Care este suprafața României?",
+        "answer": "Conform recensământului din 2019, suprafața României este de 238.397 km pătrați.",
+        "id": 241
+    },
+    {
+        "category": "Geography",
+        "question": "Care este populația României?",
+        "answer": "Populația României este de 19,41 de milioane de locuitori.",
+        "id": 242
+    },
+    {
+        "category": "Geography",
+        "question": "De ce se spune despre România că este o țară carpatică?",
+        "answer": "România este o țară carpatică, deoarece 2/3 din Munții Carpați se află pe teritoriul său.",
+        "id": 243
+    },
+    {
+        "category": "Geography",
+        "question": "De ce se spune despre România că este o țară dunăreană?",
+        "answer": "De la Baziaș și până la Marea Neagră, pe o lungime de 1075 km (38% din lungimea totală), fluviul Dunărea constituie granița României. Ea străbate teritoriul țării noastre doar între Ostrov și estul orașului Galați.",
+        "id": 244
+    },
+    {
+        "category": "Geography",
+        "question": "De ce se spune despre România că este o țară pontică?",
+        "answer": "România este o țară pontică deoarece este una dintre țările care au ieșire la Marea Neagră.",
+        "id": 245
+    },
+    {
+        "category": "Geography",
+        "question": "Care sunt țările cu care se învecinează România?",
+        "answer": "Țările cu care se învecinează cu România sunt: Bulgaria, Ucraina, Ungaria, Serbia, Republica Moldova.",
+        "id": 246
+    },
+    {
+        "category": "Geography",
+        "question": "Care sunt diviziunile munților Carpați?",
+        "answer": "Diviziunile munților Carpați sunt: Carpații Orientali, Carpații Meridionali, Carpații Occidentali.",
+        "id": 247
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai înalt vârf muntos din România?",
+        "answer": "Cel mai înalt vârf muntos din România este vârful Moldoveanu. Acesta are o înălțime de 2544 m și este situat în Carpații Meridionali, munții Făgăraș.",
+        "id": 248
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai vestic punct al României?",
+        "answer": "Cel mai vestic punct al României este Beba Veche, în județul Timiș.",
+        "id": 249
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai sudic punct al României?",
+        "answer": "Cel mai sudic punct al României este Zimnicea, în județul Teleorman.",
+        "id": 250
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai nordic punct al României?",
+        "answer": "Cel mai nordic punct al României este Horodiștea, în județul Botoșani.",
+        "id": 251
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai estic punct al României?",
+        "answer": "Cel mai estic punct al României este Sulina, în județul Tulcea.",
+        "id": 252
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Delta Dunării?",
+        "answer": "Delta Dunării este limitată la sud-vest de podișul Dobrogei, la nord cel al Basarabiei, iar în est se varsă în Marea Neagră. La nord, brațele Chilia și Musura formează granița cu Ucraina. Delta ocupă, împreună cu complexul lagunar Razim-Sinoe 5050 km², din care 732 km² aparțin Ucrainei, Delta românești revine-o suprafață de 2540 km². Este încadrata de limanuri și lacuri adiacente și cuprinde sute de lacuri între brațe, dintre care câteva zeci de mari dimensiuni. Datorită celor 67 milioane de tone de aluviuni aduse de Dunăre, Delta Dunării crește anual cu aproximativ 40 m². Cele 3 brațe ale Dunării sunt reprezentate de Brațul Chilia, Brațul Sulina, Brațul Sf. Gheorghe. Brațul Chilia, formând granița cu Ucraina, și transportă pe cursul său, de o lungime de 104 km², 60% din apele și aluviunile Dunării. Brațul Sulina este situat în mijlocul Deltei și, spre deosebire de Chilia, are un curs rectiliniu. Are o lungime de 71 km și transportă 18% din volumul de apă al Dunării. Cursul Brațului Sfântul Gheorghe este orientat spre sud-est, și se desfășoară pe 112 km, transportând 22% din volumul apei livrat de Dunării. La vărsare formează insulele Sacalin considerate un început de deltă secundară.",
+        "id": 253
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Lacul Roșu?",
+        "answer": "Lacul Roșu este un lac de baraj natural, care s-a format în urma prăbușirii unui versant. Împrejurimile lacului au un microclimat plăcut, deosebit de benefic pentru tratarea stărilor de extenuare fizică și psihică, insomnii, neurastenii. Temperatura medie multianuală este de 8°C, peste media de 6°C a depresiunilor intramontane. Valea este practic ferită de vânturi, aerul deosebit de curat, bogat în aerosoli naturali, împrejurile pioierilor grădini ecoițile excelente pentru cei cu acută sursă de regenerare rapidă pe cale naturală. Începând cu anul 1900, tocmai turismul balnear recreativ a fost cel care a adus dezvoltarea punctului de vedere a serviciilor turistice a acestui zone.",
+        "id": 254
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Lacul Sf. Ana?",
+        "answer": "Lacul Sfânta Ana este singurul lac vulcanic din România. Este situat în masivul Ciomatu din județul Harghita, în stânga râului Olt, în apropiere de stațiunea Tușnad. Lacul este așezat pe fundul craterului unui vulcan stins, cunoscut drept Ciomatu Mare. Lacul Sfânta Ana se află la o altitudine de 946 m. Lacul își completează naparul numai din precipitații, neavând izvoare. Lacul Sfânta Ana este o rezervație complexă naturală, geologică, floristică și faunistică, fiind legat de Băile Tușnad prin poete turistice.",
+        "id": 255
+    },
+    {
+        "category": "Geography",
+        "question": "Care sunt cele două râuri importante care izvorăsc din Munții Hășmaș?",
+        "answer": "Cele două râuri importante care izvorăsc din Munții Hășmaș sunt Oltul și Mureșul.",
+        "id": 256
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei stațiuni din Carpații Orientali.?",
+        "answer": "Trei stațiuni din Carpații Orientali sunt reprezentate de Salina Praid, Slănic Moldova și Lacul Sf. Ana.",
+        "id": 257
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Depresiunea Maramureșului?",
+        "answer": "Depresiunea Țara Băsei este o depresiune din Grupa Nordică a Carpaților Orientali, situată la confluența apelor de râurile Vișeu, Iza și Mara, cu înălțimi medii de 800 de metri. Are un relief ce coboară în trepte către văile râurilor Olt și Someș. Depresiunea Maramureșului este o depresiune situată la nord și vest, continuându-se dincolo de hotarele țării.",
+        "id": 258
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Depresiunea Brașovului?",
+        "answer": "Depresiunea Țara Băsei este o depresiune situată în interiorul curbei Carpaților, reprezentată prin etajul estic al depresiunii Brașovului. Țara Băsei este o depresiune situată la circa 400 – 550 m deasupra nivelului mării, fiind înconjurată de dealuri și munți, iar majoritatea cetăților țării sunt creștini ortodocși. Clima Țării Băsei este temperată continentală, caracterizându-se prin nota de tranzitie dintre climatul meridional de la poalele etajului și cele boreale și temperate de tip continental.",
+        "id": 259
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre râul Tisa?",
+        "answer": "Tisa este un râu care curge prin România, Ucraina, Slovacia, Ungaria și Serbia, ajunge și apoi se varsă în Dunăre lângă Belgrad. Este cel mai mare afluent al Dunării și adună apele de pe o suprafață de 157.186 km². Tisa are în România un raport de 64 km, la granița nordică a țării. Cei mai mari parte a cursului este pe teritoriul Ungariei și Serbiei unde, după ce colectează râurile din nord-vestul României, se varsă tot în Dunăre.",
+        "id": 260
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre vulcanii noroioși?",
+        "answer": "Vulcanii noroioși sunt formațiuni create de gazele naturale provenind de la 3.000 de metri adâncime, care trec printr-un sol argilos, în combinație cu apa din pânza freatică. Gazele împing spre suprafață apa amestecată cu argilă. Nămolul format de aceste ieșiri de suprafață și, în locurile unde a ieșit nămolul, se usucă în contact cu aerul, formând niște structuri conice asemănătoare unor vulcani. Nămolul ieșit la suprafață este piesa de atractivitate a acestor arealuri. Rezervația Vulcanilor Noroioși, locul unde pământul fierbe, se întinde pe aproximativ 30 ha între localitățile buzoiene Scorțoaia și Berca și este formată din 4 zone: Fierbători, Pâclele Mari, Pâclele Mici și Beciu.",
+        "id": 261
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai lung drum de altitudine care străbat Carpații Meridionali?",
+        "answer": "Cele două drumuri de altitudine care străbat Carpații Meridionali sunt Transalpina și Transfăgărășanul.",
+        "id": 262
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Babele și Sfinxul?",
+        "answer": "Sfinxul din Munții Bucegi este ună formațiune stâncoasă situată la 2216 m altitudine, în complexul stancos Babele. Originea numelui Sfinxului este datorată asemănării sale cu un cap uman, mai exact cu Sfinxul Egiptean, formarea lui fiind datorată eroziunii eoliene(vântului). Babele sunt formațiuni stâncoase situate în apropiere de vârful Babele Mare (2292 m), situat în masivul Bucegi din Carpații Meridionali. Important obiectiv turistic, Cabana Babele este situată sub vârful cu același nume și este punctul de plecare central în drumețiile din munții Bucegi.",
+        "id": 263
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei stațiuni din Carpații Meridionali.?",
+        "answer": "Trei stațiuni din Carpații Meridionali sunt Bușteni, Predeal, Sinaia.",
+        "id": 264
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați două rezervații naturale din Carpații Meridionali.?",
+        "answer": "Două rezervații naturale: Parcul Național Cozia, Rezervația Rășinari.",
+        "id": 265
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați două peșteri aflate în circuitul turistic în Carpații Meridionali.?",
+        "answer": "Două peșteri din circuitul turistic în Carpații Meridionali sunt Peștera Șura Mare, Peștera de Piciorul Babelor.",
+        "id": 266
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei lacuri glaciale din Carpații Meridionali.?",
+        "answer": "Trei lacuri glaciale din Carpații Meridionali sunt Lacul Zănoaga Mare, Lacul Bucura, Lacul Bâlea.",
+        "id": 267
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Porțile de Fier?",
+        "answer": "Porțile de Fier este un defileu ce face parte din granița dintre Serbia și România. La est de Porțile de Fier, în apropiere de orașul Drobeta-Turnu Severin, se afla podul lui Traian.",
+        "id": 268
+    },
+    {
+        "category": "Geography",
+        "question": "Peșteri aflate în circuitul turistic în Carpații Occidentali.?",
+        "answer": "Peșteri aflate în circuitul turistic din Carpații Occidentali sunt Peștera Ghețarul de la Vârtop, Peștera Honoaca Apei, Peștera cu Apă din Valea Legului.",
+        "id": 269
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre Țara Moților?",
+        "answer": "Țara Moților este situată în Munții Apuseni, pe bazinul superior al râurilor Arieș și Crișul Alb. Această zonă cuprinde porțiuni din actualele județe Alba, Arad, Bihor, Cluj și Hunedoara. O porțiune din regiune este parte a Parcului Natural Apuseni. Țara Moților începe tradițional la Bistra, linie de demarcație cu Câmpeni, munții Tadai de către mulți Topesfofd de către austrici, considerați tradițional moții au fost considerați de descendenți ai celților, fie ai slavilor, ai alanilor sau ai triburilor germanice.",
+        "id": 270
+    },
+    {
+        "category": "Geography",
+        "question": "Care sunt resursele naturale ale României?",
+        "answer": "Resursele naturale valorificabile ale României pot fi clasificate în două categorii: resurse regenerabile (minerale și combustibili fosili) și resurse regenerabile (apă, aer, sol, floră, faună), incluzând cele inepuizabile: energia solară, eoliană, geotermală și a valurilor). Între componentele resurselor naturale există legături și interacțiuni puternice, astfel că orice intervenție asupra uneia induce, inevitabil, consecințe și asupra celorlalți.",
+        "id": 271
+    },
+    {
+        "category": "Geography",
+        "question": "Unde se află cel mai mare ghețar subteran din România?",
+        "answer": "Cel mai mare ghețar subteran din România se află la Peștera Scărișoara. Acesta este al doilea cel mai mare ghețar din lume, după cel din Slovacia.",
+        "id": 272
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei regiuni viticole din Moldova.?",
+        "answer": "Trei regiuni viticole din Moldova sunt Podgoria Odobești, Podgoria Panciu, Podgoria Ivești.",
+        "id": 273
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei regiuni viticole din Ardeal.?",
+        "answer": "Trei regiuni viticole din Ardeal sunt Podgoria Aiud, Podgoria Alba, Podgoria Târnave.",
+        "id": 274
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei regiuni viticole din Muntenia.?",
+        "answer": "Trei regiuni viticole din Muntenia sunt Podgoria Dealu Mare, Podgoria Dealurile Buzăului, Podgoria Greaca.",
+        "id": 275
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe din Bucovina.?",
+        "answer": "Trei orașe din Bucovina sunt Frăsin, Solca, Gura Humorului.",
+        "id": 276
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe din Moldova.?",
+        "answer": "Trei orașe din Moldova sunt Iași, Bacău, Suceava.",
+        "id": 277
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe din Dobrogea.?",
+        "answer": "Trei orașe din Dobrogea sunt Constanța, Tulcea, Mangalia.",
+        "id": 278
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe din Muntenia.?",
+        "answer": "Trei orașe din Muntenia sunt Călărași, Slobozia, București.",
+        "id": 279
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe din Oltenia.?",
+        "answer": "Trei orașe din Oltenia sunt Craiova, Slatina, Drăgășani.",
+        "id": 280
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe din Banat.?",
+        "answer": "Trei orașe din Banat sunt Arad, Timișoara, Lugoj.",
+        "id": 281
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe din Ardeal.?",
+        "answer": "Trei orașe din Ardeal sunt Cluj, Turda, Sibiu.",
+        "id": 282
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei județe din Moldova.?",
+        "answer": "Trei județe din Moldova sunt Bacău, Suceava, Iași.",
+        "id": 283
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei județe din Muntenia.?",
+        "answer": "Trei județe din Muntenia sunt Ialomița, Călărași, Ilfov.",
+        "id": 284
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei județe din Ardeal.?",
+        "answer": "Trei județe din Ardeal sunt Alba, Cluj-Napoca, Sibiu.",
+        "id": 285
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei câmpii din România.?",
+        "answer": "Trei câmpii din România sunt Câmpia de Vest, Câmpia Română, Câmpia Moldovei.",
+        "id": 286
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei depresiunii din România.?",
+        "answer": "Trei depresiuni din România sunt Depresiunea Brașovului, Depresiunea Brad, Depresiunea Beiuș.",
+        "id": 287
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei râuri care formează granița cu statele vecine ale României?",
+        "answer": "Granița României cu Moldova este realizată de râul Prut. Granița României cu Bulgaria este realizată de fluviul Dunărea. Granița României cu Ucraina este realizată de râul Tisa.",
+        "id": 288
+    },
+    {
+        "category": "Geography",
+        "question": "Care este valoarea cea mai mare bază hidrografică și cel mai mare debit din România?",
+        "answer": "Siretul este al cel mai mare bază hidrografică și cel mai mare debit din România.",
+        "id": 289
+    },
+    {
+        "category": "Geography",
+        "question": "Care este râu care trece prin Cluj-Napoca?",
+        "answer": "Râul care trece prin Cluj-Napoca este Someș.",
+        "id": 290
+    },
+    {
+        "category": "Geography",
+        "question": "Care este râu care trece prin Timișoara?",
+        "answer": "Râul care trece prin Timișoara este Bega.",
+        "id": 291
+    },
+    {
+        "category": "Geography",
+        "question": "Care este râu care trece prin București?",
+        "answer": "Râul care trece prin București este Dâmbovița.",
+        "id": 292
+    },
+    {
+        "category": "Geography",
+        "question": "Cole mai mari dinci cinci orașe din România?",
+        "answer": "Cele mai mari dinci cinci orașe din România sunt București, Cluj-Napoca, Timișoara, Iași, Constanța.",
+        "id": 293
+    },
+    {
+        "category": "Geography",
+        "question": "Care sunt cele trei brațe ale Deltei Dunării?",
+        "answer": "Cele trei brațe ale Deltei Dunării sunt Chilia, Sulina și Sfântul Gheorghe.",
+        "id": 294
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați cinci stațiuni de pe litoralul Mării Negre.?",
+        "answer": "Cinci stațiuni de litoralul Mării Negre sunt Saturn, Neptun, 1 Mai, Jupiter, Eforie.",
+        "id": 295
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre fauna din Delta Dunării?",
+        "answer": "Delta Dunării adăpostește o mare parte din fauna avicată a Europei – peste 3400 de specii, multe din ele fiind unice în lume. Tot aici își găsesc refugiul mamifere rare cum sunt Nurca Europeană, Vidra euroasiatică și Pisica sălbatică.",
+        "id": 296
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre flora din Delta Dunării?",
+        "answer": "Delta are o biodiversitate unică, acoperă 500 de specii, dintre care 1839 de plante. Vegetația Deltei Dunării este preponderent specifică zonei umede, 78% fiind reprezentată de stuf, rogoz, papură, pipirig, salcie plicită. Este de menționat faptul că, în Deltă se găsesc cei mai mari năsturi contact cu apă din lume, având o suprafață de 1.750 km². Pe grindurile fluviale specifice cele mai întâlnite sunt arbori și sălci, plopiul alb, plopul negru, câinii, tufe de mure, etc. Una dintre rarele menționale ale zonei mai întâlnite vor fi stufărișurile, nuferii. În apropiere de zonele lacustre se găsesc și două plante carnivore, adiacente și otrăvitoare de balta. Un loc aparte îl formează Pădurea Letea, una dintre cele mai vechi rezervatii naturale din România și cea mai nordică pădure subtropicală din lume. Predomină stejarul, unul dintre cei cu vârste de peste 300 de ani. În pădure nu se pot întâlni și peste 10 specii de iarbă, unele care pot ajunge până la 25m.",
+        "id": 297
+    },
+    {
+        "category": "Geography",
+        "question": "Ce enumerați trei specii tipice ale Dunării?",
+        "answer": "Fauna specifică zonei alpine în România este reprezentată de capra neagră, având de multe este etc.",
+        "id": 298
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe port la Dunăre.?",
+        "answer": "Trei orașe port la Dunăre sunt Galați, Brăila, Constanța.",
+        "id": 299
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați două porturi maritime ale României.?",
+        "answer": "Două porturi maritime ale României sunt Constanța, Mangalia.",
+        "id": 300
+    },
+    {
+        "category": "Geography",
+        "question": "Ce țări realizează Dunărea graniță naturală a României?",
+        "answer": "Dunărea realizează graniță naturală a României cu Bulgaria și Serbia.",
+        "id": 301
+    },
+    {
+        "category": "Geography",
+        "question": "Care este structura etnică a populației României?",
+        "answer": "România și țările din zonă are parte din diversitatea etnică ca din poziția sa geografică de drumurile majore de migrație continentală. 89,1 la sută din populație este română, iar peste 12 la sută reprezintă mai mult de douzeci de minorități etnice separate. Deși multe dintre aceste minorități sunt grupuri mici, minoritatea maghiară care reprezintă 7,8% din populația totală și este cea mai mare minoritate națională din România. Următoarea componentă cea mai mare a populației este etnia romă, care reprezintă până la 1,5% din populația totală. Există, de asemenea, un număr semnificativ de ucraineni, sârbi și croați, precum și o minoritate evreiască estimată de observatori occidentali între 20.000 și 25.000. Există, de asemenea, o populație de romi semnificativă.",
+        "id": 302
+    },
+    {
+        "category": "Geography",
+        "question": "Care este structura confesională a populației României?",
+        "answer": "România este un stat laic și nu are religie de stat. România este una dintre țările europene în care religioasă dintre la ortodocși. Statul român recunoaște oficial 18 religii și confesiuni. 81,04% din populația stabilă și tări a fost identificată ca parte a Bisericii Ortodoxe Răsăritene la recensământul din 2011. Alte confesiuni creștine includ Biserica Catolică (atât catolicismul latin 4,53%), cât și greco-catolicismul (0,75% – 3,3%), calvinismul (2,99%) și confesiunile protestante (1,80%).",
+        "id": 303
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei mănăstiri din Bucovina.?",
+        "answer": "Trei mănăstiri din Bucovina sunt Putna, Voroneț, Moldovița.",
+        "id": 304
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cea mai numeroasă minoritate națională din România?",
+        "answer": "Cea mai numeroasă minoritate națională din România este cea romă.",
+        "id": 305
+    },
+    {
+        "category": "Geography",
+        "question": "Care sunt cele mai vechi orașe din România?",
+        "answer": "Cele mai vechi orașe din România sunt Constanța, Alba-Iulia, Sighișoara, Cluj-Napoca, Sibiu.",
+        "id": 306
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați cinci orașe universitare din România.?",
+        "answer": "În România sunt București, Cluj-Napoca, Timișoara, Craiova, Iași.",
+        "id": 307
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei obiective turistice din Moldova.?",
+        "answer": "Trei obiective turistice din Moldova sunt Mănăstirea Putna, Casa memorială a lui Ion Creangă, Casa memorială a lui Mihai Eminescu.",
+        "id": 308
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei obiective turistice din Ardeal.?",
+        "answer": "Trei obiective turistice din Ardeal sunt Castelul Huniazilor, Salina Praid, Cetatea Devei.",
+        "id": 309
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei obiective turistice din Muntenia.?",
+        "answer": "Trei obiective turistice din Muntenia sunt Vulcanii Noroioși, Centrul Vechi din București, Mănăstirea Curtea de Argeș.",
+        "id": 310
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei obiective turistice din București.?",
+        "answer": "Trei obiective turistice din București sunt Parcul Herăstrău, Templul Coral, Palatul Parlamentului.",
+        "id": 311
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei obiective turistice din Cluj-Napoca.?",
+        "answer": "Trei obiective turistice din Cluj-Napoca sunt Cetățuia, Biserica Sf. Mihail, Piața Unirii.",
+        "id": 312
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei obiective turistice din Iași.?",
+        "answer": "Trei obiective turistice din Iași sunt Palatul Culturii, Bojdeuca lui Creangă, Mănăstirea Sfinții Trei Ierarhi.",
+        "id": 313
+    },
+    {
+        "category": "Geography",
+        "question": "Cum este organizat teritoriul României din punct de vedere administrativ-teritorial?",
+        "answer": "Administrația României este una centralizată. Conform Constituției, teritoriul României este organizat, sub aspect administrativ, în comune, orașe și județe.",
+        "id": 314
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați patru fructe specific românești.?",
+        "answer": "Pomii fructiferi specifici României sunt mărul, prunul, cireșul, părul.",
+        "id": 315
+    },
+    {
+        "category": "Geography",
+        "question": "În ce oraș funcționează singura centrală nucleară din România?",
+        "answer": "Singura centrală nucleară care funcționează din România se află la Cernavodă.",
+        "id": 316
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați două șantiere navale din România.?",
+        "answer": "Două șantiere navale din România sunt Șantierul Naval Giurgiu și Șantierul Naval de la Drobeta Turnu Severin.",
+        "id": 317
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei orașe centre ale industriei de construcții de mașini.?",
+        "answer": "Trei orașe centre ale industriei constructoare de mașini sunt Arad, Craiova, Vâlcea.",
+        "id": 318
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați cinci orașe care au aeroporturi internaționale.?",
+        "answer": "Cinci orașe care au aeroporturi internaționale sunt București, Cluj-Napoca, Constanța, Iași, Timișoara.",
+        "id": 319
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei organisme sau organizații internaționale din care face parte România?",
+        "answer": "România face parte din NATO, UE, ONU.",
+        "id": 320
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre vegetația montană?",
+        "answer": "Vegetația montană se găsește pe munți la altitudini mari (înălțimi). Acest tip de vegetație diferă în funcție de variație și creșterea în altitudine. Pe măsură ce înălțimea crește, temperatura scade. Astfel, copacii la altitudine mai mare sunt coniferi și formează pădurile de conifere.",
+        "id": 321
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre vegetația de dealuri și de podișuri?",
+        "answer": "Aceste unități morfologice constituie o treime din rețeaua de relief între munți și câmpii, fiind situată la interiorul și preextierilor arcului carpatic. Cele mai importante sunt: Podișul Someșan, Podișul Transilvaniei, Piemonturile Vestice, Subcarpații, Podișul Moldovei, Dobrogea. Aceste unități morfologice cuprind între vale Dunării, Marea Neagră și granița cu Bulgaria este altitudini din următoarele zone de relief: Munții Dobrogei, între valea Dunării și podișul Babadagului, Podișul Dobrogei de nord, cuprins între Dunăre, Munții Dobrogei, Marea Neagră și Podișul Dobrogei de Sud, Podișul Dobrogei de Sud cuprins între Podișul Dobrogei de Nord, Dunăre, Marea Neagră și granița cu Bulgaria. Câmpiile de Vest.",
+        "id": 322
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre vegetația de câmpie?",
+        "answer": "Vegetația de câmpie este reprezentată prin: păduri de stejar pedunculat păduri de cer și gâmăși și pajiști formate pe locul fostelor păduri de stejari, vegetație de silvostepă, care cuprinde păduri izolate de stejar brumăriu și de stejar pufos, pajiști xerofile de stepă, unde predomină păiușii, colilie etc. Vegetația luncilor este reprezentată prin păduri de salcie, plop, prin gârleuri de luncă și pajiști de luncă. Vegetația acvatică: bălțile și lacurile prezintă în general o repartizare zonată a vegetației iar frontul ca undă. La mal apare o zonă de rogozuri și stânjene de baltă, urmată apoi de o zona de stuf(foarte extinsă în Delta Dunării), în care predomină stuful în amestec cu papura și pipirigul. În zona centrală predomină nuferi și broscărită, iar la adâncimi mai mari brădișul.",
+        "id": 323
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre fauna alpină?",
+        "answer": "Vegetația montană, care acoperi regiunile muntoase sub altitudine de 1700-1500 m, ete reprezentată prinpăduri de molid, în care predomină molidișiurile pure, iar în locurile mai joase, doar local, întâlnindu-se brad și pin, păduri amestecate de fag cu rașiunea, în care cresc predominant stejar, bradul și molidul, păduri de fag, caracterizate prin predominarea fagului(in amestec slab cu bradul), a molidului(in partea superioară), teiului, păltinului, frasinului, ulmului etc. Vegetația de dealuri și de podișuri este reprezentată prin: păduri de fag cu gorun, păduri de gorun și pajiști secundare stepizate, dezvoltate pe locul pădurile de gorun, păduri de stejar pedunculat în care predomină stejarii brumării asociat în amestec cu diverse alte esențe lemnoase pădurii de cer și gâmăși, cu pajiști stepizate și pajiști stepice secundare pajiști dezvoltate pe locul pădurilor alcătuite din diverse esențe de stejar și pajiști xeromezofile de silvostepă.",
+        "id": 324
+    },
+    {
+        "category": "Geography",
+        "question": "Ce știți despre animalele care trăiesc în păduri?",
+        "answer": "În România există sute de mii de animale sălbatice, de la binecunoscutele căprioare – care pot fi întâlnite nu doar la munte, ci și în pădurile din zonele deluroase, premontane sau chiar de la câmpie – până la discrerți râși.",
+        "id": 325
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Gorj.?",
+        "answer": "Reședința județului Gorj este Târgu-Jiu.",
+        "id": 326
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Harghita.?",
+        "answer": "Reședința județului Harghita este Miercurea Ciuc.",
+        "id": 327
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Hunedoara.?",
+        "answer": "Reședința județului Hunedoara este Deva.",
+        "id": 328
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Ialomița.?",
+        "answer": "Reședința județului Ialomița este Slobozia.",
+        "id": 329
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Mehedinți.?",
+        "answer": "Reședința județului Mehedinți este Drobeta Turnu-Severin.",
+        "id": 330
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Maramureș.?",
+        "answer": "Reședința județului Maramureș este Baia Mare.",
+        "id": 331
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Olt.?",
+        "answer": "Reședința județului Olt este Slatina.",
+        "id": 332
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Prahova.?",
+        "answer": "Reședința județului Prahova este Ploiești.",
+        "id": 333
+    },
+    {
+        "category": "Geography",
+        "question": "Reședința județului Vrancea.?",
+        "answer": "Reședința județului Vrancea este Focșani.",
+        "id": 334
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai mare județ al României?",
+        "answer": "Cel mai mare județ al României este județul Timiș.",
+        "id": 335
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai mic județ al României?",
+        "answer": "Cel mai mic județ al României este județul Ilfov.",
+        "id": 336
+    },
+    {
+        "category": "Geography",
+        "question": "Enumerați trei universități din România?",
+        "answer": "Trei universități din România sunt Universitatea București, Universitatea Babeș Bolyai din Cluj, Universitatea de Vest Timișoara.",
+        "id": 337
+    },
+    {
+        "category": "Geography",
+        "question": "Care este cel mai mare lac de acumulare din România?",
+        "answer": "Care este cel mai mare lac de acumulare din România este Lacul Vidraru.",
+        "id": 338
+    },
+    {
+        "category": "Geography",
+        "question": "Cum se numește stațiunea din sud-vestul României unde se găsesc cele mai calde ape termale?",
+        "answer": "Stațiunea din sud-vestul României unde se găsesc cele mai calde ape termale este stațiunea Băile Herculane.",
+        "id": 339
+    },
+    {
+        "category": "Geography",
+        "question": "Care este orașul situat la cea mai mare altitudine din România?",
+        "answer": "Orașul cu cea mai mare altitudine din România este Predeal.",
+        "id": 340
+    },
+    {
+        "category": "Geography",
+        "question": "Cel mai lung râu din România?",
+        "answer": "Cel mai lung râu din România este Dunărea.",
+        "id": 341
+    },
+    {
+        "category": "Geography",
+        "question": "Care este lacul cu cea mai mare suprafață din România?",
+        "answer": "Lacul cu cea mai mare suprafață din România este Razim.",
+        "id": 342
+    },
+    {
+        "category": "Geography",
+        "question": "Cei mai vechi vale ferată din România?",
+        "answer": "Cea mai veche cale ferată din România este Oravița-Lișava-Anina.",
+        "id": 343
+    },
+    {
+        "category": "Geography",
+        "question": "Recunoașteți imaginea de mai jos:?",
+        "answer": "În imaginea de mai jos este reprezentat Palatul Parlamentului.",
+        "id": 344
+    },
+    {
+        "category": "Geography",
+        "question": "Recunoașteți imaginea de mai jos:?",
+        "answer": "În imaginea de mai sus este reprezentat Castelul Bran.",
+        "id": 345
+    },
+    {
+        "category": "Geography",
+        "question": "Recunoașteți imaginea de mai jos:?",
+        "answer": "În imaginea de mai sus este reprezentat Ateneul Român.",
+        "id": 346
+    },
+    {
+        "category": "Geography",
+        "question": "Recunoașteți imaginea de mai jos:?",
+        "answer": "În imaginea de mai jos este reprezentat Arcul de Triumf.",
+        "id": 347
+    },
+    {
+        "category": "Geography",
+        "question": "Recunoașteți imaginea de mai jos:?",
+        "answer": "În imaginea de mai jos este reprezentat Castelul Corvinilor.",
+        "id": 348
+    },
+    {
+        "category": "category",
+        "question": "question",
+        "answer": "answer",
+        "id": 349
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre geto-daci?",
+        "answer": "Poporul geto-dac a făcut parte dintr-o ramură distinctă a tracilor. Geto-dacii trăiau în Antichitate în spațiul carpato-dunărean. Populația carpato-dunăreană a fost desemnată, de izvoarele grecești cu numele de geți, iar cele romane cu numele de daci. Întrucât geții și dacii erau potriviți uneia și aceleași civilizații și vorbeau aceeași limbă îi reprezintă de fapt, ramuri ale aceluiași popor, poporul geto-dac.",
+        "id": 350
+    },
+    {
+        "category": "History",
+        "question": "Enumerați cele mai importante colonii grecești de la Marea Neagră.?",
+        "answer": "Cele mai importante colonii grecești de la Marea Neagră sunt: Histria, Tomis, Callatis.",
+        "id": 351
+    },
+    {
+        "category": "History",
+        "question": "Enumerați trei așezări romane din Dacia.?",
+        "answer": "Trei așezări romane din Dacia sunt: Ulpia Traiana Sarmisegetuza, Apulum și Napoca.",
+        "id": 352
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Sarmizegetusa?",
+        "answer": "Sarmizegetusa Regia (cea regăsescă) a fost capitala și cel mai important centru militar, religios și politic al statului dac înainte de războaiele cu Imperiul Roman. După cucerirea Daciei și înglobarea ei în Imperiul Roman, capitala a fost mutată la Ulpia Traiana (Sarmizegetusa). Ruinele cetății dacice Sarmizegetusa Regia au fost incluse pe lista patrimoniului cultural mondial UNESCO.",
+        "id": 353
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Burebista?",
+        "answer": "Burebista (82 î.Hr. – 44 î.Hr.) a fost rege al geto-dacilor și întemeietorul statului dac. Într-un desvârșit lider și strateg militar, acesta a reușit unirea triburilor geto-dacice și, de asemenea, să introducă o serie de măsuri administrative care au avut un rol important în consolidarea și stabilitatea statului.",
+        "id": 354
+    },
+    {
+        "category": "History",
+        "question": "Enumerați doi regi geto-daci.?",
+        "answer": "Doi regi geto-daci sunt: Burebista și Decebal.",
+        "id": 355
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Decebal și despre Traian?",
+        "answer": "Decebal a fost regele Daciei între anii 87-106. Dacia s-a aflat la apogeul puterii sale în timpul domniei lui Decebal. Traian a fost unul dintre cei mai importanți împărați ai Imperiului Roman. În timpul domniei sale, Imperiul și-a împins întinderea teritorială maximă. Confruntările dintre daci și romani au reînceput în timpul împăratului Traian și a regelui Decebal.",
+        "id": 356
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre războaiele daco-romane?",
+        "answer": "Războaiele daco-romane (101-102, 105-106) au fost două războaie între Imperiul Roman și Dacia, în timpul împăratului Traian. La începutul anului 101, armata romană, condusă chiar de împărat, a atacat Dacia. În anul 106, Decebal s-a înfrânt și siliți să schimbe o pace ci care oricui era extrem de nefavorabilă pentru daci. Din ordinul lui Traian, Apollodor din Damasc, înalță în anii 103-105, un pod peste Dunăre, pe care legiunile romane îl trec în varăiului 105, începutul cel de-al doilea război dacic, care are ca rezultat cucerirea Daciei și moartea lui Decebal.",
+        "id": 357
+    },
+    {
+        "category": "History",
+        "question": "Enumerați două zeități dacice.?",
+        "answer": "Două zeități dacice sunt: Zalmoxis și Bendis.",
+        "id": 358
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Columna lui Traian?",
+        "answer": "Columna lui Traian este un monument antic din Roma construit din ordinul împăratului Traian. Columna reproduce artistic, sub forma unor basoreliefuri / sculpturi, războaiele dintre romani și daci purtate de Traian pentru cucerirea Daciei.",
+        "id": 359
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Podul lui Traian de la Drobeta-Turnu Severin?",
+        "answer": "Podul lui Traian a fost tot construit de Apollodor din Damasc cel care a realizat și Columna lui Traian), între primăvara anului 103 și primăvara anului 105 pe Dunărea de Jos, în orașul Drobeta-Turnu Severin. Scopul construcției a fost de a facilita transportul trupelor romane conduse de Traian și a proviziilor necesare celei de-a doua campanii militare de cucerire a Daciei.",
+        "id": 360
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre provincia romană Dacia?",
+        "answer": "Dacia romană a fost o provincie romană după cucerirea Daciei de către Imperiul Roman sub conducerea lui Traian în 106 și a durat până în 271, un total de 165 de ani. Deoarece Dacia nu fusese cucerită complet, deseori aveau loc incursiuni ale dacilor liberi cu scopul de a hărțui legiunile romane din această zonă.",
+        "id": 361
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre dacii liberi?",
+        "answer": "Dacii liberi este termenul dat de istoricii moderni, dacilor din secolele II-IV, care nu au intrat în componența Imperiului Roman, în cadrul Provinciei romane Dacia. Aceștia se împart în geți, carpi și costoboci.",
+        "id": 362
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre tezaurul de la Pietroasele?",
+        "answer": "Tezaurul de la Pietroasa este un tezaur archeologic format din mai multe obiecte din aur, descoperit în anul 1837, în localitatea Pietroasele, Buzău.",
+        "id": 363
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre retragerea aureliană?",
+        "answer": "Retragerea Aureliană este un eveniment care se referă la evacuarea armatei și a administrației din Dacia romană. Trebuie precizat că Dacia romană a reprezentat doar o parte a Regatului Daciei preromane, fiind inclusă sub controlul roman în muntenia, Banatul, Oltenia și o parte din Muntenia.",
+        "id": 364
+    },
+    {
+        "category": "History",
+        "question": "Enumerați două cuvinte din limba română de origine latină.?",
+        "answer": "Două cuvinte din limba română de origine latină sunt: sânge (sanguis) și câmp (campus).",
+        "id": 365
+    },
+    {
+        "category": "History",
+        "question": "Enumerați două cuvinte din limba română de origine dacică.?",
+        "answer": "Două cuvinte din limba română de origine dacică sunt: vatră și bătrân.",
+        "id": 366
+    },
+    {
+        "category": "History",
+        "question": "Enumerați două cuvinte din limba română de origine slavă.?",
+        "answer": "Două cuvinte din limba română de origine slavă sunt: coajă și clopot.",
+        "id": 367
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre împădurirea creștinismului în Dacia?",
+        "answer": "Transformarea Daciei în provincie romană a creat condiții favorabile pentru propagarea creștinismului. Se poate vorbi de anumiți „misionari neoficiali” recrutați dintre coloniști, soldați din armata romană, negustori sau sclavi, care îmbrățișaseră credința creștină înainte de a veni în Dacia. În secolul al III-lea numărul acestor misionari \"laici\" a sporit prin amuțit captivi creștini - pe care goții - stăpânii acestor ținuturi îi aduceau din Asia Mică. La această influență s-a adăugat, în timpul lui Constantin cel Mare, Câmpia munteană a reținut în stăpânirea Imperiului, deci legăturile permanente ale locuitorilor de aceeași limbă de pe ambele maluri ale Dunării au contribuit la răspândirea masivă a învățăturii creștine.",
+        "id": 368
+    },
+    {
+        "category": "History",
+        "question": "Enumerați trei popoare migratoare care s-au succedat pe teritoriul actual al României.?",
+        "answer": "Trei popoare migratoare care s-au succedat pe teritoriul actual al României sunt: bulgarii, tătarii, pecenegii.",
+        "id": 369
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre formarea poporului român?",
+        "answer": "Procesul de formare a poporului român a fost unul complex, compus din 2 mari etape - perioada stăpânirii romane din cauza asigurărilor de colonizatoare a coloniștilor, veteranilor, a administrației romane, formându-se populația daco-romană; - continuitatea daco-romanilor în nordul Dunării, după retragerea aureliană, când fenomenul romanizării i-a cuprins și pe dacii liberi; până la sfârșitul secolului al VIII-lea, populația daco-romană s-a transformat în populație românească.",
+        "id": 370
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre ungurii, secuii și sașii?",
+        "answer": "Sașii sunt un grup etnic de origine predominant germană, stabiliți în sudul și în nord-estul Transilvaniei începând cu mijlocul secolului al XII-lea. Secuii sunt un grup etnic de limbă maghiară din România, de origine turcică, predominant stabiliți în județele Covasna, Harghita și Mureș. Ungurii sunt un corp răspândit în Europa centrală, vorbitori al limbii maghiare, cu importante comunități în România.",
+        "id": 371
+    },
+    {
+        "category": "History",
+        "question": "Ce erau cnezatele și voievodatele?",
+        "answer": "Cnezatele și voievodatele erau formațiuni prestatale românești din perioada Evului Mediu. Cnezatul a fost și o formațiune politică prestată, care era formată dintr-un grup de sate românești conduse de un cneaz. În cazul al țărilor române, voievodatele Munteniei, Moldovei și Transilvaniei aveau drept domni „voievozi”, care erau atât șefii statului, cât și comandanții supremi ai armatei.",
+        "id": 372
+    },
+    {
+        "category": "History",
+        "question": "Care erau provinciile istorice ale României?",
+        "answer": "Provinciile istorice ale României sunt: Banat, Crișana, Maramureș, Ardeal, Bucovina, Moldova, Basarabia, Oltenia, Muntenia și Dobrogea.",
+        "id": 373
+    },
+    {
+        "category": "History",
+        "question": "Enumerați trei domnitori din Țara Românească.?",
+        "answer": "Trei domnitori din Țara Românească sunt: Basarab I, Mircea Cel Bătrân și Vlad Țepeș.",
+        "id": 374
+    },
+    {
+        "category": "History",
+        "question": "Enumerați trei domnitori din Moldova.?",
+        "answer": "Trei domnitori din Moldova sunt: Ștefan Cel Mare, Alexandru cel Bun și Alexandru Ioan Cuza.",
+        "id": 375
+    },
+    {
+        "category": "History",
+        "question": "Care au fost capitalele istorice ale Moldovei?",
+        "answer": "Capitalele istorice ale Moldovei au fost: Baia, Siret, Suceava și Iași.",
+        "id": 376
+    },
+    {
+        "category": "History",
+        "question": "Care au fost capitalele istorice ale Țării Românești?",
+        "answer": "Capitalele istorice ale Țării Românești au fost: Câmpulung, Curtea de Argeș, Târgoviște și București.",
+        "id": 377
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Iancu de Hunedoara?",
+        "answer": "Iancu de Hunedoara (1407 - 1456) a fost o personalitate dominantă a istoriei românilor din secolul al XV-lea. Acesta a fost voievod al Transilvaniei, guvernator al regatului Ungariei, apoi căpitan suprem al Ungariei și al Transilvaniei.",
+        "id": 378
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Matei Corvin?",
+        "answer": "Matei Corvin a fost unul dintre cei mai mari regi ai Ungariei. El a fost fiul voievodului român Iancu de Hunedoara. A condus Regatul Ungariei intre anii 1458-1490. Matia Corvin a domnit 32 de ani ca rege fiind una dintre cele mai strălucite din istoria Ungariei.",
+        "id": 379
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Basarab I?",
+        "answer": "Basarab I, supranumit în epoca modernă Basarab Întemeietorul, este fondatorul Țării Românești. A domnit între anii 1310 - 1352.",
+        "id": 380
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Mircea cel Bătrân?",
+        "answer": "Mircea cel Bătrân a fost domnul Țării Românești intre 1386 și 1394 și intre 1397 și 1418. În timpul lui Mircea cel Bătrân, Țara Românească a ajuns la cea mai mare întindere teritorială din istoria sa.",
+        "id": 381
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Vlad Țepeș?",
+        "answer": "Vlad Țepeș a domnit în Țara Românească în anii 1448, 1456-1462 și 1476. În timpul domniei sale, Țara Românească și-a obținut temporar independența față de Imperiul Otoman (imperiul turcilor). Perioada Țepeș i-a atribuit de pe urma execuțiilor frecvente prin tragere în țeapă pe care le ordona.",
+        "id": 382
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Mihai Viteazul?",
+        "answer": "Mihai Viteazul a fost domnul Țării Românești între 1593-1600. Pentru o perioadă (în 1600), a fost conducător al celor trei state medievale care formează România de astăzi: Țara Românească, Transilvania și Moldova.",
+        "id": 383
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Matei Basarab?",
+        "answer": "Matei Basarab a fost domnul Țării Românești între 1632 și 1654. Domnia i-a fost marcată de confruntări cu Vasile Lupu, domnul Moldovei.",
+        "id": 384
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Constantin Brâncoveanu?",
+        "answer": "Constantin Brâncoveanu a fost domnul Țării Românești între anii 1688 și 1714, având una din cele mai lungi domnii din istoria principatelor române.",
+        "id": 385
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Alexandru cel Bun?",
+        "answer": "Alexandru cel Bun a fost domnul Moldovei intre anii 1400 - 1432.",
+        "id": 386
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Ștefan cel Mare?",
+        "answer": "Ștefan cel Mare a fost domnul Moldovei intre anii 1457 și 1504. Acesta a domnit timp de 47 de ani, cea mai lungă domnie din epoca medievală din Țările Române.",
+        "id": 387
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Petru Rareș?",
+        "answer": "Petru Rareș a fost domn al Moldovei de două ori, prima dată între 1527 și 1538, iar a doua oară între 1541 și 1546. A fost fiul natural al lui Ștefan cel Mare.",
+        "id": 388
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Vasile Lupu?",
+        "answer": "Vasile Lupu a fost domnul Moldovei în două rânduri, între 1634 – 1653 și mai 1653 – iunie 1653.",
+        "id": 389
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Dimitrie Cantemir?",
+        "answer": "Dimitrie Cantemir a fost domnul Moldovei în două rânduri (marție-aprile 1693 și 1710 - 1711) și un mare cărturar. Printre ocupațiile sale diverse se-au numărat cele de enciclopedist, etnograf, geograf, filozof și istoric.",
+        "id": 390
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Constantin Mavrocordat?",
+        "answer": "Constantin Mavrocordat a fost fiul domnitorului grec Nicolae Mavrocordat. A fost un domnitor fanariot, care si-a obținut domniile fiind ales de boieri. După două domnii scurte în Țara Românească, a fost mutat în Moldova, unde a trebuit să mărească dările ca să-și poată cumpăra trecerea tușă și să recâștige tronul pierdut.",
+        "id": 391
+    },
+    {
+        "category": "History",
+        "question": "Cine a fost Alexandru Ioan Cuza?",
+        "answer": "Alexandru Ioan Cuza a fost primul domnitor al Principatelor Unite și al statului național Român. Prin alegerea sa ca domn al Moldovei, la 5 ianuarie 1859, și al Țării Românești, la 24 ianuarie 1859, a fost înfăptuită Unirea celor două principate.",
+        "id": 392
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre bătălia de la Ro vine?",
+        "answer": "Bătălia de la Rovine a fost una dintre cele mai importante bătălii din istoria Țării Românești și a avut loc în data 17 mai 1395.",
+        "id": 393
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre bătălia de la Vaslui?",
+        "answer": "Bătălia de la Vaslui, cunoscută și ca Bătălia de la Podul Înalt, a avut loc în data de 10 ianuarie 1475 lângă orașul Vaslui, între armatele sub comanda lui Ștefan cel Mare și oastea otomană sub conducerea lui Suleiman Pașa.",
+        "id": 394
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre bătălia de la Posada?",
+        "answer": "Bătălia de la Posada este numele unui conflict militar între Regatul Ungariei și Țara Românească, petrecut în toamna anului 1330. Această bătălie a marcat emanciparea Țării Românești de sub tutela coroanei maghiare.",
+        "id": 395
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre atacul de noapte al lui Vlad Țepeș?",
+        "answer": "Atacul de noapte a fost o bătălie între o armată condusă de Vlad Țepeș și o armată condusă de sultanul Mahomed al II-lea al Imperiului Otoman, desfășurată pe drumul dintre Nicopole și cetatea de scaun a Țării Românești, Târgoviște, în noaptea de 16 iunie 1462. Campania a avut ca rezultat o victorie decisivă a românilor.",
+        "id": 396
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre bătălia de la Călugăreni?",
+        "answer": "Bătălia de la Călugăreni a avut loc la august 1595. Oastea muntenească, condusă de Mihai Viteazul, a încercat si oprească oastea otomană învatatoare, al cărei obiectiv era transformarea Țării Românești în pașalâc/ luarea sub stăpânire a Țării Românești. Operațiunea nu i-au a reușit, ea fiind urmată de ocuparea Bucureștiului de către turci și retragerea lui Mihai Viteazul în munți.",
+        "id": 397
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre bătălia de la Șelimbăr?",
+        "answer": "Bătălia de la Șelimbăr a avut loc în 1599, între oastea Țării Românești, condusă de Mihai Viteazul și oastea Transilvaniei, condusă de cardinalul Andrei Báthory. Bătălia s-a terminat cu victoria armatei conduse de Mihai Viteazul care și-a deschis astfel drumul spre cetatea Alba-Iulia, unde a înfăptuit prima unire a Transilvaniei cu Țara Românească.",
+        "id": 398
+    },
+    {
+        "category": "History",
+        "question": "Trei exemple de mănăstiri din Țara Românească.?",
+        "answer": "Trei mănăstiri din Țara Românească sunt: Mănăstirea Curtea de Argeș, Mănăstirea Tismana și Mănăstirea Dealu.",
+        "id": 399
+    },
+    {
+        "category": "History",
+        "question": "Trei exemple de mănăstiri din Moldova.?",
+        "answer": "Trei mănăstiri din Moldova sunt: Mănăstirea Voroneț, Mănăstirea Putna și Mănăstirea Sucevița.",
+        "id": 400
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre mănăstirea Putna?",
+        "answer": "Mănăstirea Putna este un lăcaș monahal ortodox, unul din cele mai importante centre culturale, religioase și artistice românești. A fost supranumită „Ierusalimul Neamului Românesc” (Mihai Eminescu).",
+        "id": 401
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre mănăstirea Voroneț?",
+        "answer": "Mănăstirea Voroneț, numită și “Capela Sixtină a Estului”, este un complex monahal medieval construit în satul Voroneț. Ea constituie una dintre cele mai valoroase ctitorii ale lui Ștefan cel Mare. Biserica a fost ridicată în numai 3 luni și 3 săptămâni, ceea ce constituie un record pentru acea vreme.",
+        "id": 402
+    },
+    {
+        "category": "History",
+        "question": "Trei exemple de orașe din Țara Românească în Evul Mediu.?",
+        "answer": "Trei orașe din Țara Românească în Evul Mediu erau: Curtea de Argeș, Târgoviște și București.",
+        "id": 403
+    },
+    {
+        "category": "History",
+        "question": "Trei exemple de orașe din Moldova în Evul Mediu.?",
+        "answer": "Trei orașe din Moldova în Evul Mediu erau: Baia, Suceava și Iași.",
+        "id": 404
+    },
+    {
+        "category": "History",
+        "question": "Trei exemple de orașe din Transilvania în Evul Mediu.?",
+        "answer": "Trei orașe din Transilvania în Evul Mediu erau: Brașov, Alba Iulia și Sibiu.",
+        "id": 405
+    },
+    {
+        "category": "History",
+        "question": "Care erau clasele sociale în Evul Mediu?",
+        "answer": "Clasele sociale în Evul Mediu au fost: țăranii liberi, țăranii dependenți (aserviți), feudalul și clerul.",
+        "id": 406
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre boieri și iobagi?",
+        "answer": "Boierul era un mare stăpân de pământ care deținea și o funcție înaltă în stat. Iobagul este țăranul legat de pământ, dependent de stăpânul feudal (boierul) și obligat să-i facă acestuia prestații în muncă, în natură sau în bani.",
+        "id": 407
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre conflictele sociale din Transilvania în Evul Mediu?",
+        "answer": "Cele mai frecvente conflicte erau între țăranii dependenți și boieri, precum și între boieri și domnitori. Înăutățirea situației țăranilor a avut drept rezultat două răscoale mari: Răscoala de la Bobâlna (1437 şi 1438) și Răscoala lui Gheorghe Doja (1514).",
+        "id": 408
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Școala Ardeleană?",
+        "answer": "Școala Ardeleană a fost o mișcare de emancipare politico-socială a românilor din Transilvania. Reprezentanții Școlii Ardelene au adus argumente istorice și filologice în sprijinul tezei că românii transilvăneni sunt descendenți direcți ai colonistilor romani din Dacia.",
+        "id": 409
+    },
+    {
+        "category": "History",
+        "question": "Enumerați două cetăți medievale din Moldova.?",
+        "answer": "Două cetăți medievale din Moldova sunt: Cetatea Suceava și Cetatea Neamț.",
+        "id": 410
+    },
+    {
+        "category": "History",
+        "question": "Enumerați două cetăți medievale din Țara Românească.?",
+        "answer": "Două cetăți medievale din Țara Românească sunt: Curtea Domnească din Târgoviște și Cetatea Frumoasa.",
+        "id": 411
+    },
+    {
+        "category": "History",
+        "question": "Enumerați două cetăți medievale din Transilvania.?",
+        "answer": "Două cetăți medievale din Transilvania sunt: Cetatea Râșnov și Cetatea Clujului.",
+        "id": 412
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre revoluția condusă de Tudor Vladimirescu?",
+        "answer": "Revoluția de la 1821 condusă de Tudor Vladimirescu a fost unul dintre evenimentele care au marcat începutul procesului de renaștere națională a României. Revoluția a avut cauze naționale, economice și sociale.",
+        "id": 413
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Regulamentele Organice?",
+        "answer": "Regulamentul organic a fost prima lege organică constituțională în Țara Românească și Moldova. A fost promulgată în 1831-1832 de către autoritățile imperiale rusești și a rămas valabilă până în anul 1858. Regulamentul a oferit celou două principate primul lor sistem comun de guvernare.",
+        "id": 414
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Revoluția de la 1848?",
+        "answer": "Revoluția Română de la 1848 a fost parte a revoluțiilor europene din același an și expresie a procesului de afirmare a națiunii române și a conștiinței naționale. Revoluția Română de la 1848 s-a desfășurat în condițiile ca parte din teritoriul național se aflau în stăpânirea imperiilor vechi.",
+        "id": 415
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Avram Iancu?",
+        "answer": "Avram Iancu a fost un avocat transilvănean și revoluționar român pașoptist, care a jucat un rol important în Revoluția de la 1848 din Transilvania.",
+        "id": 416
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Unirea Principatelor Române?",
+        "answer": "Unirea Principatelor Române a avut loc la jumătatea secolului al XIX-lea prin unirea statelor Moldova și Țara Românească sub numele Principatele Unite ale Moldovei și Țării Românești. Procesul uniri, bazat pe apropierea puterilor europene culturali și economici între cele două țări, a cunoscut o etapă decisivă, prin alegerea lui Alexandru Ioan Cuza ca domnitor al ambelor principate.",
+        "id": 417
+    },
+    {
+        "category": "History",
+        "question": "Care au fost Regii României?",
+        "answer": "Regii României au fost: Carol I, Ferdinand I, Carol al II-lea și Mihail I.",
+        "id": 418
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre regele Carol I?",
+        "answer": "Carol I al României a fost domnitorul, apoi regele României, care a condus Principatele Române și apoi România după abdicarea/renunțarea la tron forțată de o lovitura de stat a lui Alexandru Ioan Cuza.",
+        "id": 419
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre regele Ferdinand I?",
+        "answer": "Ferdinand I a fost al doilea rege al României, din 1914 până la moartea sa din anul 1927. În timpul domniei sale s-a înfăptuit Marea Unire din 1918, s-au pus bazele consolidării statului național unitar român și s-au adoptat masuri fundamentale pentru dezvoltarea țării noastre, ca de exemplu: votul universal, reforma agrară și Constituția din 1923.",
+        "id": 420
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre regele Carol al II-lea?",
+        "answer": "Carol al II-lea al României a fost rege României între 1930-1940. Carol a fost primul născut al regelui Ferdinand I al României și al soției sale, regina Maria. Domnia lui a fost marcată la început de defectele marii crize economice și financiare.",
+        "id": 421
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre regele Mihai I?",
+        "answer": "Mihai I a domnit ca Rege al României între 1927 și 1930, precum și între 1940 și 1947. A fost unul dintre puținii foști șefi de stat din perioada celui de-al Doilea Război Mondial care au trăit și în secolul XXI.",
+        "id": 422
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Regina Elisabeta a României?",
+        "answer": "Elisabeta a României, a fost regina României în timpul domniei soțului său, Carol I al României, patroană a artelor, fondatoare a unor instituții caritabile, poeți, eseistă și scriitoare.",
+        "id": 423
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Regina Maria a României?",
+        "answer": "Regina Maria a fost a doua regină a României, în calitate de soție a Regelui Ferdinand I al României. Încă de la început, Regina Maria s-a implicat activ in viața politică, având întâlniri cu miniștri și diplomați și susținându-și fervent punctele de vedere. Regina a coordonat colaborarea cu Crucea Roșie, a organizat spitale de campanie și a strâns fonduri pentru serviciul de ambulanță.",
+        "id": 424
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Ion C. Brătianu?",
+        "answer": "Ion C. Brătianu, a fost un om politic român, ministru în secolul al XIX-lea, președinte și membru de onoare al Academiei Române. Acesta a contribuit prin activitatea sa la constituirea statului român modern. El s-a situat întotdeauna în prim-planul evenimentelor istorice care au marcat destinul poporului român: Revoluția de la 1848, Unirea Principatelor, cucerirea Independenței de stat.",
+        "id": 425
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre prima constituție a României?",
+        "answer": "Constituția din 1866 este actul juridic și politic fundamental al României adoptat după Unirea Principatelor Române. A fost prima constituție elaborată fără consultare străină și fără aprobare externă, devenind un act de manifestare a independenței României, oferind cadrul pentru evoluția statului român pe baze moderne și democratice.",
+        "id": 426
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre războiul de la 1877?",
+        "answer": "Războiul de Independență al României este numele folosit în istoriografia română pentru participarea Principatului României la Războiul Ruso-Turc din anii 1877–1878. În urma acestui război, România și-a obținut independența față de Imperiul Otoman, alături de Serbia și Muntenegru.",
+        "id": 427
+    },
+    {
+        "category": "History",
+        "question": "România în primul Război Mondial.?",
+        "answer": "În timpul primului prim Război Mondial, scopul politic principal al participării României la război era realizarea statului național unitar român. Din punct de vedere al statuluiului de belligeranți, România a fost pe rând: țară neutră, țară beligerantă de partea Antantei, în stare de armistițiu, țară necombătantă, țară beligerantă de partea Antantei. După ce Rusia a încheiat pacea de la Brest-Litovsk cu Puterile Centrale, România a fost nevoită să ceară armistițiul și apoi să iasă din război și să semneze o pace separată în primăvara lui 1918. La sfârșitul Primului Război Mondial, Imperiul Austro-Ungar a fost desființat; astfel a fost posibilă formarea României Mari prin Unirea Banatului, Bucovinei și Transilvaniei cu România.",
+        "id": 428
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre formarea statului național unitar român?",
+        "answer": "Începutul cristalizării statului român a avut loc, în anul 1859, când sub domnia lui Alexandru Ioan Cuza, Moldova și Țara Românească se unesc într-un nou stat, România. Unirea Transilvaniei, Banatului, Crișanei și Maramureșului cu România, din 1 decembrie 1918, reprezintă sfârșitul procesului de creare a statului național unitar român.",
+        "id": 429
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre învățământul superior din provinciile românești?",
+        "answer": "Istoria învățământului superior românesc își are rădăcinile la fondarea Colegiului “Sfântul Sava”, în 1694 de către domnitorul Constantin Brâncoveanu. Prima instituție modernă de învățământ superior din provinciile române unite a fost Universitatea din Iași, fondată în1860, urmată de Universitatea din București în 1864. Tandem de înființarea Universității din București apar câteva dintre facultățile de bază ale instituției: Școala Națională de Medicină și Farmacie, Facultatea de Drept (1859), Facultatea de Litere (1869). În 1884 apare și Facultatea de Teologie.",
+        "id": 430
+    },
+    {
+        "category": "History",
+        "question": "Cine a fost Spiru Haret?",
+        "answer": "Spiru Haret a fost un matematician, fizician, profesor, om politic, ministru al cultului și instrucțiunilor publice, membru titular al Academiei Române. Supranumit „omul școlii” pentru opera sa reformatoare. Spiru Haret este considerat organizatorul școlii moderne românești.",
+        "id": 431
+    },
+    {
+        "category": "History",
+        "question": "Cine a fost Gheorghe Asachi?",
+        "answer": "Gheorghe Asachi a fost un poet, prozator și dramaturg român, de origine armeană. El a fost un întemeietorul invățământului istoric, a condus numeroase reviste literare și a recuperat manuscrisul Țiganiada, celebra operă a lui Ion Budai-Deleanu.",
+        "id": 432
+    },
+    {
+        "category": "History",
+        "question": "Cine a fost Gheorghe Lazăr?",
+        "answer": "Gheorghe Lazăr a fost un pedagog, teolog, traducător și inginer român, considerat fondatorul învățământului în limba română din Țara Românească (în 1818 a înființat în București prima școală cu predare în limba română, Școala de Sfântul Sava).",
+        "id": 433
+    },
+    {
+        "category": "History",
+        "question": "Enumerați trei istorici români.?",
+        "answer": "Trei istorici români sunt: Nicolae Iorga, Neagu Djuvara și B.P. Hasdeu.",
+        "id": 434
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Nicolae Bălcescu?",
+        "answer": "Nicolae Bălcescu a fost un istoric, scriitor și revoluționar român. Alături de fratele său a participat la Revoluția din 1848. Prin capodopera sa Românii supți Mihai Voievod Viteazul, Bălcescu l-a impus în canonul național pe voievodul Mihai Viteazul.",
+        "id": 435
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Mihail Kogălniceanu?",
+        "answer": "Mihail Kogălniceanu a fost un om politic de orientare liberală, avocat, istoric și publicist român originar din Moldova, care a devenit prim-ministru al României în 1863, după Unirea din 1859 a Principatelor Dunărene în timpul domniei lui Alexandru Ioan Cuza, și mai târziu a servit ca ministru al Afacerilor Externe sub domnia lui Carol I. A fost unul dintre cei mai influenți intelectuali români ai generației sale.",
+        "id": 436
+    },
+    {
+        "category": "History",
+        "question": "România după Marea Unire – teritoriu, populație, minorități.?",
+        "answer": "După Tratatul de la Versailles din 1920, termenul de „România Mare” a intrat în uz,  țara bucureșteană cu cea mai mare extindere teritorială din istoria sa. Pe plan scocial, țărănimea a continuat să rămână clasa cea mai numeroasă, dar a crescut și numărul muncitorilor industriali și al intelectualității. Pe lângă populația majoritară românească, exista și minorități (maghiari, germani, ruși etc.), se care se bucurau de același drepturi ca cetățenii români: aveau partide politice proprii, reprezentare în Parlament, școli în limbile materne, dreptul de a folosi limba maternă în justiție, administrație, aveau publicații proprii.",
+        "id": 437
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre partidele politice din perioada interbelică în România?",
+        "answer": "În zona aceasta modernizată de formări politice se înregistrează în perioada primelorlor trei alegeri parlamentare (1919-1922), organizate în baza votului universal. Printre exemplele de partide amintim, exemplificativ: Partidul Național Român din Transilvania, Partidul Democrat al Unirii din Bucovina, Partidul Țărănesc din Basarabia, precum și partidele social-democrate din aceste provincii.",
+        "id": 438
+    },
+    {
+        "category": "History",
+        "question": "Cine au fost Iuliu Maniu și Iuliu Hossu?",
+        "answer": "Iuliu Maniu a fost un om politic român, deputat roman de Transilvania in Dieta de la Budapesta, de mai multe ori prim-ministru al României, președinte al Partidului Național-Țărănesc. Iuliu Hossu a fost episcop al Episcopiei greco-catolice de Cluj-Gherla, deținut politic, cardinal, senator de drept in Parlamentul României, membru de onoare (din 1945) al Academiei Române.",
+        "id": 439
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Constituția României de la 1923?",
+        "answer": "Constituția României din 1923 a consfințit unificării, cum mai e numită, consfințirea realizarea României Mari. Potrivit Constituției din 1923, România era o monarhie constituțională, stat național, unitar, indivizibil, cu teritoriul inalienabil.",
+        "id": 440
+    },
+    {
+        "category": "History",
+        "question": "Cine a fost Nicolae Titulescu?",
+        "answer": "Nicolae Titulescu a fost diplomat, jurist, profesor universitar și om politic român, în repetate rânduri ministru al afacerilor străine. Una din personalitățile de prim rang pe care România le-a dat, Titulescu a fost un om dedicat șirii sale în pofta ostilității, a izolării politice. Acesta a militat în favoarea relațiilor apropiate cu vecinii dar și a restabilirii relațiilor cu Uniunea Sovietică",
+        "id": 441
+    },
+    {
+        "category": "History",
+        "question": "Ce s-a întâmplat la 28 iunie 1940?",
+        "answer": "Pe 28 iunie 1940, România a primit un ultimatum din partea Uniunii Sovietice, prin care se cerea evacuarea administrației civile și a armatei române din Basarabia (în prezent, Moldova) și din partea nordică a regiunii Bucovina. În cazul în care retragerea nu s-ar fi făcut în termenul impus de partea zil, România era amenințată cu războiul.",
+        "id": 442
+    },
+    {
+        "category": "History",
+        "question": "România în al doilea război mondial.?",
+        "answer": "Participarea României în cel de-al Doilea Război Mondial s-a caracterizat prin două campanii: - cea din est pentru eliberarea Basarabiei și Bucovinei, pierdută - cea din vest pentru eliberarea Transilvaniei, câștigată. La încheierea războiului, pe planul diplomatic, doar participarea de partea Axei i fost luată la socoteală și România a semnat Tratatul de pace de la Paris (1946) ca stat dușman învins.",
+        "id": 443
+    },
+    {
+        "category": "History",
+        "question": "Ce s-a întâmplat la 23 august 1944?",
+        "answer": "Actul de la 23 august 1944 a fost acțiunea prin care regele Mihai I a decis demiterea și arestarea lui Ion Antonescu, prim-ministrul României și „Conducătorul Statului”, și a dispus încetarea imediată a colaborării României cu Puterile Axei și începerea tratativelor de armistițiu cu Aliații și de colaborare militară cu Uniunea Sovietică.",
+        "id": 444
+    },
+    {
+        "category": "History",
+        "question": "Când a abdicat regele Mihai I?",
+        "answer": "Lovitura de stat petrecută în perioada 30 decembrie 1947 - 3 ianuarie 1948 reprezintă acțiunea ilegală, de forță, prin care comuniștii români, sprijiniți de ocupanții militari sovietici, au impus Regelui Mihai, prin șantaj și amenințare, semnarea unui act de abdicare, au proclamat Republica Populară Română și au silit Familia Regală să părăsească țara într-un exil forțat care a durat până în anul 1997.",
+        "id": 445
+    },
+    {
+        "category": "History",
+        "question": "Numiți doi șefi de stat ai României din perioada 1947-1989.?",
+        "answer": "Doi șefi de stat ai României din perioada 1947-1989 au fost: Gheorghe Gheorghiu-Dej și Nicolae Ceaușescu.",
+        "id": 446
+    },
+    {
+        "category": "History",
+        "question": "Când a devenit România membră a Organizației Națiunilor Unite?",
+        "answer": "România a devenit membră a Organizației Națiunilor Unite în data de 14 decembrie 1955.",
+        "id": 447
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Nicolae Ceaușescu?",
+        "answer": "Nicolae Ceaușescu a fost un politician român și secretar general al Partidului Comunist Român. El a fost șeful de stat al Republicii Socialiste România din 1967 până la căderea regimului comunist, în 22 decembrie 1989. La 22 decembrie 1989, printr-un decret a fost constituit Tribunalul Militar Excepțional. La 25 decembrie 1989, soții Nicolae și Elena Ceaușescu au fost judecați de acest tribunal în cadrul unui proces sumat, condamnați la moarte și executați la câteva minute după pronunțarea sentinței.",
+        "id": 448
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Revoluția anticomunistă din 1989?",
+        "answer": "Revoluția Română din 1989 a constat într-o serie de proteste, lupte de stradă și demonstrații desfășurate în România, între 16 și 25 decembrie 1989, care au dus la căderea dictatorului Nicolae Ceaușescu și la sfârșitul regimului comunist din România.",
+        "id": 449
+    },
+    {
+        "category": "History",
+        "question": "Care au fost președinții României după 1989?",
+        "answer": "Președinții României după 1989 au fost: Ion Iliescu, Emil Constantinescu, Traian Băsescu și Klaus Iohannis.",
+        "id": 450
+    },
+    {
+        "category": "History",
+        "question": "Enumerați patru prim-miniștri ai României după 1989.?",
+        "answer": "Patru prim-miniștri ai României după 1989 sunt: Victor Ponta, Emil Boc, Viorica Dăncilă și Ludovic Orban.",
+        "id": 451
+    },
+    {
+        "category": "History",
+        "question": "Ce știți despre Constituția României din 1991?",
+        "answer": "Constituția României este legea fundamentală a statului român care reglementează, printre altele, principiile generale de organizare a statului, drepturile, libertățile și îndatoririle fundamentale ale cetățenilor și autorităților publice fundamentale. Actuala Constituție a României a fost adoptată în ședința Adunării Constituante din 21 noiembrie 1991 și a intrat în vigoare în urma aprobării ei prin referendumul național din 8 decembrie 1991.",
+        "id": 452
+    },
+    {
+        "category": "History",
+        "question": "Când a devenit România membră NATO?",
+        "answer": "România a devenit membră NATO în anul 2004.",
+        "id": 453
+    },
+    {
+        "category": "History",
+        "question": "Când a intrat România în Uniunea Europeană?",
+        "answer": "România a aderat la Uniunea Europeană în anul 2007.",
+        "id": 454
+    },
+    {
+        "category": "History",
+        "question": "Recunoașteți personalitatea din imaginea de mai jos:?",
+        "answer": "Personalitatea din imaginea dată este: Burebista.",
+        "id": 455
+    }
+]
