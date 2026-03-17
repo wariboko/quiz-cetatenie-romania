@@ -283,6 +283,54 @@
     }
     .fade-in { animation: fadeIn 0.3s ease forwards; }
 
+    /* Dark theme */
+    [data-theme="dark"] {
+      --bg: #0f0f1a;
+      --card-bg: #1a1a2e;
+      --text: #e5e5e5;
+      --text-muted: #9ca3af;
+      --border: #2d2d44;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    }
+    [data-theme="dark"] .answer-text { color: #d1d5db; }
+    [data-theme="dark"] .btn-secondary { background: #252540; color: var(--text); border-color: var(--border); }
+    [data-theme="dark"] .btn-secondary:hover { background: #2d2d44; }
+    [data-theme="dark"] .btn-reveal { background: #064e3b; color: #6ee7b7; border-color: #065f46; }
+    [data-theme="dark"] .btn-reveal:hover { background: #065f46; }
+    [data-theme="dark"] .btn-reset:hover { background: #1a1a2e; }
+
+    /* Header controls */
+    .header-controls {
+      position: absolute;
+      top: 50%;
+      right: 16px;
+      transform: translateY(-50%);
+      display: flex;
+      gap: 8px;
+    }
+    .header-btn {
+      background: rgba(255,255,255,0.15);
+      border: none;
+      color: #fff;
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .header-btn:hover { background: rgba(255,255,255,0.25); }
+
+    /* Category pill filtering */
+    .cat-pill { cursor: pointer; user-select: none; }
+    .cat-pill:hover { border-color: var(--blue); }
+    .cat-pill.disabled { opacity: 0.4; text-decoration: line-through; }
+    .cat-pill.disabled:hover { border-color: var(--border); }
+
     /* Responsive */
     @media (max-width: 480px) {
       .header h1 { font-size: 1.25rem; }
@@ -291,14 +339,20 @@
       .actions { flex-direction: column; }
       .bottom-actions { flex-direction: column; }
       .category-bar { gap: 6px; }
+      .header-controls { right: 12px; }
+      .header-btn { width: 32px; height: 32px; font-size: 0.8rem; }
     }
   </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>Quiz Cetățenie România</h1>
-  <p>Pregătire pentru examenul de cetățenie</p>
+  <h1 id="header-title">Quiz Cetățenie România</h1>
+  <p id="header-subtitle">Pregătire pentru examenul de cetățenie</p>
+  <div class="header-controls">
+    <button class="header-btn" id="lang-btn" onclick="toggleLang()" title="Switch language">EN</button>
+    <button class="header-btn" id="theme-btn" onclick="toggleTheme()" title="Toggle theme"></button>
+  </div>
 </div>
 
 <div class="container">
@@ -321,7 +375,7 @@
     <div class="card-body" id="card-body">
       <div class="loading" id="loading-state">
         <div class="spinner"></div>
-        <p>Se încarcă întrebările...</p>
+        <p id="loading-text">Se încarcă întrebările...</p>
       </div>
     </div>
   </div>
@@ -333,6 +387,142 @@
 </div>
 
 <script>
+// ========== TRANSLATIONS ==========
+const translations = {
+  ro: {
+    title: "Quiz Cetățenie România",
+    subtitle: "Pregătire pentru examenul de cetățenie",
+    loading: "Se încarcă întrebările...",
+    loadError: "Eroare la încărcare",
+    loadErrorMsg: "Nu s-a putut încărca biblioteca PapaParse.",
+    csvError: "Eroare",
+    csvErrorMsg: "Nu s-au putut încărca întrebările. Verificați fișierul questions.csv.",
+    welcome: "Bine ați venit!",
+    welcomeMsg: "Testați-vă cunoștințele pentru examenul de cetățenie română.",
+    questionsFrom: "întrebări din 4 categorii.",
+    startQuiz: "Începe Quiz-ul",
+    continueQuiz: "Continuă",
+    startFresh: "Începe de la zero",
+    showAnswer: "Arată Răspunsul",
+    next: "Următoarea",
+    reset: "Resetează",
+    answer: "Răspuns",
+    congrats: "Felicitări!",
+    completedMsg: "Ați parcurs toate cele",
+    questions: "întrebări",
+    questionsLabel: "întrebări",
+    startAgain: "Începe din nou",
+    categories: {
+      Constitution: "Constituție",
+      History: "Istorie",
+      Culture: "Cultură",
+      Geography: "Geografie"
+    }
+  },
+  en: {
+    title: "Romanian Citizenship Quiz",
+    subtitle: "Citizenship exam preparation",
+    loading: "Loading questions...",
+    loadError: "Loading Error",
+    loadErrorMsg: "Could not load the PapaParse library.",
+    csvError: "Error",
+    csvErrorMsg: "Could not load questions. Check the questions.csv file.",
+    welcome: "Welcome!",
+    welcomeMsg: "Test your knowledge for the Romanian citizenship exam.",
+    questionsFrom: "questions from 4 categories.",
+    startQuiz: "Start Quiz",
+    continueQuiz: "Continue",
+    startFresh: "Start Fresh",
+    showAnswer: "Show Answer",
+    next: "Next",
+    reset: "Reset",
+    answer: "Answer",
+    congrats: "Congratulations!",
+    completedMsg: "You have completed all",
+    questions: "questions",
+    questionsLabel: "questions",
+    startAgain: "Start Again",
+    categories: {
+      Constitution: "Constitution",
+      History: "History",
+      Culture: "Culture",
+      Geography: "Geography"
+    }
+  }
+};
+
+// ========== STATE ==========
+let currentLang = localStorage.getItem('quizLang') || 'ro';
+let currentTheme = localStorage.getItem('quizTheme') ||
+    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+let enabledCategories = JSON.parse(localStorage.getItem('quizCategories')) || null;
+
+// Translation helper
+function t(key) {
+  return translations[currentLang][key] || key;
+}
+function tCat(cat) {
+  return translations[currentLang].categories[cat] || cat;
+}
+
+// ========== THEME ==========
+function initTheme() {
+  document.documentElement.dataset.theme = currentTheme;
+  updateThemeBtn();
+}
+function toggleTheme() {
+  currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('quizTheme', currentTheme);
+  document.documentElement.dataset.theme = currentTheme;
+  updateThemeBtn();
+}
+function updateThemeBtn() {
+  document.getElementById('theme-btn').textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+}
+
+// ========== LANGUAGE ==========
+function toggleLang() {
+  currentLang = currentLang === 'ro' ? 'en' : 'ro';
+  localStorage.setItem('quizLang', currentLang);
+  updateLangBtn();
+  updateUI();
+}
+function updateLangBtn() {
+  document.getElementById('lang-btn').textContent = currentLang === 'ro' ? 'EN' : 'RO';
+}
+function updateUI() {
+  document.getElementById('header-title').textContent = t('title');
+  document.getElementById('header-subtitle').textContent = t('subtitle');
+  document.querySelector('.btn-reset').textContent = t('reset');
+  updateProgress();
+  // Re-render current view if quiz loaded
+  if (allQuestionsLoaded) {
+    if (currentQuestion) {
+      renderCurrentQuestion();
+    } else if (Object.keys(usedQuestions).length === 0) {
+      showWelcome();
+    }
+  }
+}
+
+// ========== PROGRESS PERSISTENCE ==========
+function saveProgress() {
+  localStorage.setItem('quizProgress', JSON.stringify(usedQuestions));
+  localStorage.setItem('quizCategories', JSON.stringify(enabledCategories));
+}
+function loadProgress() {
+  const saved = localStorage.getItem('quizProgress');
+  return saved ? JSON.parse(saved) : {};
+}
+function hasSavedProgress() {
+  const saved = loadProgress();
+  return Object.keys(saved).length > 0;
+}
+function clearProgress() {
+  localStorage.removeItem('quizProgress');
+  usedQuestions = {};
+}
+
 // Use PapaParse for CSV parsing
 function loadScript(src, cb) {
     let s = document.createElement('script');
@@ -340,22 +530,23 @@ function loadScript(src, cb) {
     s.onload = cb;
     s.onerror = function() {
         document.getElementById('card-body').innerHTML =
-            '<div class="welcome"><div class="welcome-icon">⚠️</div><h2>Eroare la încărcare</h2>' +
-            '<p>Nu s-a putut încărca biblioteca PapaParse.</p></div>';
+            '<div class="welcome"><div class="welcome-icon">⚠️</div><h2>' + t('loadError') + '</h2>' +
+            '<p>' + t('loadErrorMsg') + '</p></div>';
     };
     document.head.appendChild(s);
 }
+
+// Init theme and language buttons immediately
+initTheme();
+updateLangBtn();
+// Update loading text based on language
+document.getElementById('loading-text').textContent = t('loading');
+
 loadScript('https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js', function() { initQuiz(); });
 
 let questionsByCategory = {}, usedQuestions = {}, currentQuestion = null, currentCat = null;
 let allQuestionsLoaded = false;
 let categories = ["Constitution", "History", "Culture", "Geography"];
-let categoryLabels = {
-    "Constitution": "Constituție",
-    "History": "Istorie",
-    "Culture": "Cultură",
-    "Geography": "Geografie"
-};
 let totalQuestions = 0;
 
 function initQuiz() {
@@ -373,27 +564,47 @@ function initQuiz() {
               if (categories.includes(cat) && row.Question && row.Question.trim() && row.Answer && row.Answer.trim())
                   questionsByCategory[cat].push({id: i, question: row.Question.trim(), answer: row.Answer.trim()});
           });
-          totalQuestions = categories.reduce((sum, cat) => sum + questionsByCategory[cat].length, 0);
+          // Initialize enabled categories if not set
+          if (!enabledCategories) {
+              enabledCategories = [...categories];
+          }
+          updateTotalQuestions();
           allQuestionsLoaded = true;
-          resetQuiz();
+          // Load saved progress
+          usedQuestions = loadProgress();
           renderCategoryPills();
+          updateProgress();
           showWelcome();
       })
       .catch(err => {
           document.getElementById('card-body').innerHTML =
-              '<div class="welcome"><div class="welcome-icon">⚠️</div><h2>Eroare</h2>' +
-              '<p>Nu s-au putut încărca întrebările. Verificați fișierul questions.csv.</p></div>';
+              '<div class="welcome"><div class="welcome-icon">⚠️</div><h2>' + t('csvError') + '</h2>' +
+              '<p>' + t('csvErrorMsg') + '</p></div>';
       });
 }
 
+function updateTotalQuestions() {
+    totalQuestions = enabledCategories.reduce((sum, cat) => sum + questionsByCategory[cat].length, 0);
+}
+
 function showWelcome() {
+    let hasProgress = hasSavedProgress() && Object.keys(usedQuestions).length > 0;
+    let answeredCount = Object.keys(usedQuestions).length;
+    let buttons = '';
+
+    if (hasProgress) {
+        buttons = '<button class="btn btn-primary" onclick="nextQuestion()" style="width:100%; margin-bottom:10px">' + t('continueQuiz') + ' (' + answeredCount + '/' + totalQuestions + ')</button>' +
+                  '<button class="btn btn-secondary" onclick="clearProgress(); resetQuiz(); showWelcome();" style="width:100%">' + t('startFresh') + '</button>';
+    } else {
+        buttons = '<button class="btn btn-primary" onclick="nextQuestion()" style="width:100%">' + t('startQuiz') + '</button>';
+    }
+
     document.getElementById('card-body').innerHTML =
         '<div class="welcome fade-in">' +
         '<div class="welcome-icon">🇷🇴</div>' +
-        '<h2>Bine ați venit!</h2>' +
-        '<p>Testați-vă cunoștințele pentru examenul de cetățenie română. ' +
-        totalQuestions + ' întrebări din 4 categorii.</p>' +
-        '<button class="btn btn-primary" onclick="nextQuestion()" style="width:100%">Începe Quiz-ul</button>' +
+        '<h2>' + t('welcome') + '</h2>' +
+        '<p>' + t('welcomeMsg') + ' ' + totalQuestions + ' ' + t('questionsFrom') + '</p>' +
+        buttons +
         '</div>';
     document.getElementById('bottom-actions').style.display = 'none';
 }
@@ -401,18 +612,44 @@ function showWelcome() {
 function renderCategoryPills() {
     let bar = document.getElementById('category-bar');
     bar.innerHTML = categories.map(cat => {
+        let isEnabled = enabledCategories.includes(cat);
         let remaining = unusedQuestions(cat).length;
         let total = questionsByCategory[cat].length;
-        return '<div class="cat-pill" id="pill-' + cat + '">' +
-               categoryLabels[cat] +
+        let disabledClass = isEnabled ? '' : ' disabled';
+        return '<div class="cat-pill' + disabledClass + '" id="pill-' + cat + '" onclick="toggleCategory(\'' + cat + '\')">' +
+               tCat(cat) +
                '<span class="pill-count">' + remaining + '/' + total + '</span></div>';
     }).join('');
 }
 
+function toggleCategory(cat) {
+    if (enabledCategories.includes(cat)) {
+        // Don't allow disabling all categories
+        if (enabledCategories.length <= 1) return;
+        enabledCategories = enabledCategories.filter(c => c !== cat);
+    } else {
+        enabledCategories.push(cat);
+    }
+    updateTotalQuestions();
+    saveProgress();
+    renderCategoryPills();
+    updateProgress();
+    // If on welcome screen, re-render to update question count
+    if (!currentQuestion && Object.keys(usedQuestions).length === 0) {
+        showWelcome();
+    }
+}
+
 function updateProgress() {
-    let answered = Object.keys(usedQuestions).length;
+    // Only count answered questions from enabled categories
+    let answered = Object.keys(usedQuestions).filter(id => {
+        for (let cat of enabledCategories) {
+            if (questionsByCategory[cat] && questionsByCategory[cat].some(q => q.id == id)) return true;
+        }
+        return false;
+    }).length;
     let pct = totalQuestions > 0 ? Math.round((answered / totalQuestions) * 100) : 0;
-    document.getElementById('progress-text').textContent = answered + ' / ' + totalQuestions + ' întrebări';
+    document.getElementById('progress-text').textContent = answered + ' / ' + totalQuestions + ' ' + t('questionsLabel');
     document.getElementById('progress-pct').textContent = pct + '%';
     document.getElementById('progress-fill').style.width = pct + '%';
     renderCategoryPills();
@@ -427,7 +664,8 @@ function updateProgress() {
 function nextQuestion() {
     if (!allQuestionsLoaded) return;
 
-    let remaining = categories.filter(cat => unusedQuestions(cat).length > 0);
+    // Only consider enabled categories
+    let remaining = enabledCategories.filter(cat => unusedQuestions(cat).length > 0);
     if (remaining.length === 0) {
         showCompletion();
         return;
@@ -437,26 +675,31 @@ function nextQuestion() {
     let unused = unusedQuestions(cat);
     let q = unused[Math.floor(Math.random() * unused.length)];
     usedQuestions[q.id] = true;
+    saveProgress();
 
     currentQuestion = q;
     currentCat = cat;
 
+    renderCurrentQuestion();
+    document.getElementById('bottom-actions').style.display = 'flex';
+    updateProgress();
+}
+
+function renderCurrentQuestion() {
+    if (!currentQuestion || !currentCat) return;
     document.getElementById('card-body').innerHTML =
         '<div class="fade-in">' +
-        '<div class="question-label">' + categoryLabels[cat] + '</div>' +
-        '<div class="question-text">' + escapeHtml(q.question) + '</div>' +
+        '<div class="question-label">' + tCat(currentCat) + '</div>' +
+        '<div class="question-text">' + escapeHtml(currentQuestion.question) + '</div>' +
         '<div class="answer-section" id="answer-section">' +
-        '<div class="answer-label">Răspuns</div>' +
+        '<div class="answer-label">' + t('answer') + '</div>' +
         '<div class="answer-text" id="answer-text"></div>' +
         '</div>' +
         '<div class="actions">' +
-        '<button class="btn btn-reveal" id="btn-reveal" onclick="showAnswer()">Arată Răspunsul</button>' +
-        '<button class="btn btn-primary" onclick="nextQuestion()">Următoarea</button>' +
+        '<button class="btn btn-reveal" id="btn-reveal" onclick="showAnswer()">' + t('showAnswer') + '</button>' +
+        '<button class="btn btn-primary" onclick="nextQuestion()">' + t('next') + '</button>' +
         '</div>' +
         '</div>';
-
-    document.getElementById('bottom-actions').style.display = 'flex';
-    updateProgress();
 }
 
 function unusedQuestions(cat) {
@@ -482,18 +725,19 @@ function showCompletion() {
     document.getElementById('card-body').innerHTML =
         '<div class="completion fade-in">' +
         '<div class="completion-icon">🎉</div>' +
-        '<h2>Felicitări!</h2>' +
-        '<p>Ați parcurs toate cele ' + totalQuestions + ' întrebări.</p>' +
-        '<button class="btn btn-primary" onclick="resetQuiz(); showWelcome();" style="width:100%">Începe din nou</button>' +
+        '<h2>' + t('congrats') + '</h2>' +
+        '<p>' + t('completedMsg') + ' ' + totalQuestions + ' ' + t('questions') + '.</p>' +
+        '<button class="btn btn-primary" onclick="resetQuiz(); showWelcome();" style="width:100%">' + t('startAgain') + '</button>' +
         '</div>';
     updateProgress();
 }
 
 function resetQuiz() {
-    usedQuestions = {};
+    clearProgress();
     currentQuestion = null;
     currentCat = null;
     updateProgress();
+    showWelcome();
 }
 
 function escapeHtml(text) {
