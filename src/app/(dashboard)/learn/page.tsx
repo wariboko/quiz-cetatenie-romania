@@ -107,10 +107,10 @@ export default function LearnPage() {
 
   if (phase === "loading" || generateSession.isPending) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
         <div className="text-center">
           <Loader2 className="w-8 h-8 animate-spin text-blue-600 mx-auto mb-3" />
-          <p className="text-sm text-gray-600">Preparing your session...</p>
+          <p className="text-sm text-gray-600 dark:text-gray-400">Preparing your session...</p>
         </div>
       </div>
     );
@@ -118,7 +118,7 @@ export default function LearnPage() {
 
   if (phase === "feynman" && feynmanQuestion) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-12">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center px-4 py-12">
         <FeynmanExplainer
           question={feynmanQuestion.question}
           answer={feynmanQuestion.answer}
@@ -137,7 +137,7 @@ export default function LearnPage() {
 
   if (phase === "summary" && summaryData) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-12">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center px-4 py-12">
         <SessionSummary
           questionsAttempted={summaryData.questionsAttempted}
           questionsCorrect={summaryData.questionsCorrect}
@@ -153,7 +153,7 @@ export default function LearnPage() {
   if (!currentQuestion) return null;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-12">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center px-4 py-12">
       <QuestionCard
         key={currentQuestion.id}
         questionNumber={currentIndex + 1}

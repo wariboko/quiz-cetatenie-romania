@@ -58,14 +58,14 @@ export function QuestionCard({
     <div className="w-full max-w-2xl mx-auto">
       {/* Progress bar */}
       <div className="mb-6">
-        <div className="flex justify-between text-sm text-gray-500 mb-1">
+        <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400 mb-1">
           <span>Question {questionNumber} of {totalQuestions}</span>
           <span className="flex items-center gap-1">
             <Clock className="w-3.5 h-3.5" />
             {elapsed}s
           </span>
         </div>
-        <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
+        <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
           <div
             className="h-full bg-blue-500 rounded-full transition-all duration-300"
             style={{ width: `${((questionNumber - 1) / totalQuestions) * 100}%` }}
@@ -74,9 +74,9 @@ export function QuestionCard({
       </div>
 
       {/* Card */}
-      <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+      <div className="bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden">
         {/* Header */}
-        <div className="px-6 pt-5 pb-4 border-b border-gray-100 flex items-center justify-between">
+        <div className="px-6 pt-5 pb-4 border-b border-gray-100 dark:border-gray-700 flex items-center justify-between">
           <span className={`text-xs font-medium px-2.5 py-1 rounded-full ${catColor}`}>
             {category}
           </span>
@@ -89,14 +89,14 @@ export function QuestionCard({
 
         {/* Question */}
         <div className="px-6 py-6">
-          <p className="text-lg font-medium text-gray-900 leading-relaxed">{question}</p>
+          <p className="text-lg font-medium text-gray-900 dark:text-white leading-relaxed">{question}</p>
         </div>
 
         {/* Answer reveal */}
         {!revealed ? (
           <div className="px-6 pb-6">
-            <div className="bg-gray-50 rounded-xl border-2 border-dashed border-gray-200 p-5 text-center">
-              <p className="text-sm text-gray-400 mb-3">Think about the answer, then reveal it</p>
+            <div className="bg-gray-50 dark:bg-gray-700/50 rounded-xl border-2 border-dashed border-gray-200 dark:border-gray-600 p-5 text-center">
+              <p className="text-sm text-gray-400 dark:text-gray-500 mb-3">Think about the answer, then reveal it</p>
               <button
                 onClick={handleReveal}
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
@@ -115,13 +115,13 @@ export function QuestionCard({
                   <CheckCircle className="w-4 h-4 text-green-600 mt-0.5 shrink-0" />
                   <p className="text-xs font-semibold text-green-700 uppercase tracking-wide">Answer</p>
                 </div>
-                <p className="text-gray-800 text-sm leading-relaxed">{answer}</p>
+                <p className="text-gray-800 dark:text-gray-200 text-sm leading-relaxed">{answer}</p>
               </div>
             </div>
 
             {/* Rating buttons */}
             <div className="px-6 pb-6">
-              <p className="text-xs text-gray-500 text-center mb-3 font-medium">
+              <p className="text-xs text-gray-500 dark:text-gray-400 text-center mb-3 font-medium">
                 How well did you know this?
               </p>
               <div className="grid grid-cols-4 gap-2">

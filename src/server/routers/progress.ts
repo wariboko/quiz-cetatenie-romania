@@ -9,7 +9,7 @@
 import { z } from "zod";
 import { router, protectedProcedure } from "@/server/trpc";
 import { masteryScore, TOTAL_QUESTIONS, CATEGORY_TOTALS } from "@/lib/algorithms/mastery";
-import { generate90DayPlan, getCurrentWeek, MILESTONES } from "@/lib/algorithms/weekly-plan";
+import { generate90DayPlan, getCurrentWeek, getCurrentPhase, PHASE_LABELS, MILESTONES } from "@/lib/algorithms/weekly-plan";
 import { MasteryLevel } from "@prisma/client";
 
 export const progressRouter = router({
@@ -73,6 +73,7 @@ export const progressRouter = router({
     // Current week
     const currentWeek = getCurrentWeek(user.startDate);
     const milestone = MILESTONES[currentWeek];
+    const phaseLabel = PHASE_LABELS[getCurrentPhase(currentWeek)];
 
     return {
       score,
@@ -86,6 +87,7 @@ export const progressRouter = router({
       dueCount,
       currentWeek,
       milestone,
+      phaseLabel,
     };
   }),
 

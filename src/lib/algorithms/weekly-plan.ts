@@ -106,6 +106,17 @@ export function getCurrentWeek(startDate: Date): number {
   return Math.min(13, Math.max(1, Math.ceil(elapsed / msPerWeek)));
 }
 
+export const PHASE_LABELS: Record<LearningPhase, string> = {
+  FOUNDATION: "Foundation Phase",
+  EXPANSION:  "Expansion Phase",
+  DEEPENING:  "Deepening Phase",
+  MASTERY:    "Mastery Phase",
+};
+
+export function getCurrentPhase(week: number): LearningPhase {
+  return WEEK_PHASES[Math.min(week, 13) - 1];
+}
+
 export const MILESTONES: Record<number, { label: string; targetMastery: number; targetExamScore: number | null }> = {
   3:  { label: "Foundation Complete", targetMastery: 0.25, targetExamScore: null },
   6:  { label: "Expansion Complete",  targetMastery: 0.50, targetExamScore: null },
