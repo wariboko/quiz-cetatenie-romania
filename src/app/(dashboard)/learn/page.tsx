@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useCallback, useEffect } from "react";
 import { trpc } from "@/lib/trpc";
 import { QuestionCard, RatingOption } from "@/components/quiz/QuestionCard";
 import { FeynmanExplainer } from "@/components/quiz/FeynmanExplainer";
@@ -22,7 +21,6 @@ interface SessionQuestion {
 type Phase = "loading" | "quiz" | "feynman" | "summary";
 
 export default function LearnPage() {
-  const router = useRouter();
   const [phase, setPhase] = useState<Phase>("loading");
   const [sessionId, setSessionId] = useState<string>("");
   const [questions, setQuestions] = useState<SessionQuestion[]>([]);
@@ -73,6 +71,12 @@ export default function LearnPage() {
 
   const dueCount = trpc.progress.dueCount.useQuery(undefined, { enabled: phase === "summary" });
 
+  // Start session on mount — must be in useEffect, not in render body
+  useEffect(() => {
+    generateSession.mutate({ sessionType: "MIXED", targetCount: 20 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const advanceOrEnd = useCallback(() => {
     const nextIndex = currentIndex + 1;
     if (nextIndex >= questions.length) {
@@ -97,14 +101,9 @@ export default function LearnPage() {
   };
 
   const startSession = () => {
-    generateSession.mutate({ sessionType: "MIXED", targetCount: 20 });
     setPhase("loading");
+    generateSession.mutate({ sessionType: "MIXED", targetCount: 20 });
   };
-
-  // Initial load
-  if (phase === "loading" && !generateSession.isPending) {
-    startSession();
-  }
 
   if (phase === "loading" || generateSession.isPending) {
     return (
@@ -156,6 +155,7 @@ export default function LearnPage() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-12">
       <QuestionCard
+        key={currentQuestion.id}
         questionNumber={currentIndex + 1}
         totalQuestions={questions.length}
         category={currentQuestion.category}
