@@ -3,9 +3,12 @@
  * Imports 452 Romanian citizenship questions from questions.json on GitHub.
  */
 
+import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
+import { PrismaPg } from "@prisma/adapter-pg";
 
-const prisma = new PrismaClient();
+const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! });
+const prisma = new PrismaClient({ adapter });
 
 const VALID_CATEGORIES = new Set(["Constitution", "Culture", "Geography", "History"]);
 
